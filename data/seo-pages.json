@@ -1,1 +1,3802 @@
-[]
+[
+  {
+    "slug": "frontpage",
+    "title": "Home page in Niagara Falls | Home page",
+    "subtitle": "Premium home page built for Ontario",
+    "cta": "Shop Home page Now",
+    "productTag": "Home page",
+    "bodyHtml": "<h2>Home page for Niagara Falls</h2><p>Discover our home page, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These home page turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do home page last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Home page in Niagara Falls | Shop Now",
+      "description": "Discover top-quality home page—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/79d51ddf4b041588200cf5c000fd0b0f.png?v=1745407890",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Home page",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/79d51ddf4b041588200cf5c000fd0b0f.png?v=1745407890"
+        ],
+        "description": "High-quality home page",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "imported-products",
+    "title": "Imported Products in Niagara Falls | Imported Products",
+    "subtitle": "Premium imported products built for Ontario",
+    "cta": "Shop Imported Products Now",
+    "productTag": "Imported Products",
+    "bodyHtml": "<h2>Imported Products for Niagara Falls</h2><p>Discover our imported products, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These imported products turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do imported products last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Imported Products in Niagara Falls | Shop Now",
+      "description": "Discover top-quality imported products—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Imported Products",
+        "image": [
+          ""
+        ],
+        "description": "High-quality imported products",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "boat-decals-graphics",
+    "title": "Boat Decals & Graphics in Niagara Falls | Boat Decals & Graphics",
+    "subtitle": "Premium boat decals & graphics built for Ontario",
+    "cta": "Shop Boat Decals & Graphics Now",
+    "productTag": "Boat Decals & Graphics",
+    "bodyHtml": "<h2>Boat Decals & Graphics for Niagara Falls</h2><p>Discover our boat decals & graphics, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These boat decals & graphics turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do boat decals & graphics last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Boat Decals & Graphics in Niagara Falls | Shop Now",
+      "description": "Discover top-quality boat decals & graphics—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Boat Decals & Graphics",
+        "image": [
+          ""
+        ],
+        "description": "High-quality boat decals & graphics",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "custom-graphics-logos",
+    "title": "Custom Graphics & Logos in Niagara Falls | Custom Graphics & Logos",
+    "subtitle": "Premium custom graphics & logos built for Ontario",
+    "cta": "Shop Custom Graphics & Logos Now",
+    "productTag": "Custom Graphics & Logos",
+    "bodyHtml": "<h2>Custom Graphics & Logos for Niagara Falls</h2><p>Discover our custom graphics & logos, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These custom graphics & logos turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do custom graphics & logos last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Custom Graphics & Logos in Niagara Falls | Shop Now",
+      "description": "Discover top-quality custom graphics & logos—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Custom Graphics & Logos",
+        "image": [
+          ""
+        ],
+        "description": "High-quality custom graphics & logos",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "fullpartial-wraps",
+    "title": "Full/Partial Wraps in Niagara Falls | Full/Partial Wraps",
+    "subtitle": "Premium full/partial wraps built for Ontario",
+    "cta": "Shop Full/Partial Wraps Now",
+    "productTag": "Full/Partial Wraps",
+    "bodyHtml": "<h2>Full/Partial Wraps for Niagara Falls</h2><p>Discover our full/partial wraps, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These full/partial wraps turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do full/partial wraps last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Full/Partial Wraps in Niagara Falls | Shop Now",
+      "description": "Discover top-quality full/partial wraps—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Full/Partial Wraps",
+        "image": [
+          ""
+        ],
+        "description": "High-quality full/partial wraps",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "specialty-marine-decals",
+    "title": "Specialty Marine Decals in Niagara Falls | Specialty Marine Decals",
+    "subtitle": "Premium specialty marine decals built for Ontario",
+    "cta": "Shop Specialty Marine Decals Now",
+    "productTag": "Specialty Marine Decals",
+    "bodyHtml": "<h2>Specialty Marine Decals for Niagara Falls</h2><p>Discover our specialty marine decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These specialty marine decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do specialty marine decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Specialty Marine Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality specialty marine decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Specialty Marine Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality specialty marine decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "vehicle-decals",
+    "title": "Vehicle & Auto Decals in Niagara Falls | Vehicle & Auto Decals",
+    "subtitle": "Premium vehicle & auto decals built for Ontario",
+    "cta": "Shop Vehicle & Auto Decals Now",
+    "productTag": "Vehicle & Auto Decals",
+    "bodyHtml": "<h2>Vehicle & Auto Decals for Niagara Falls</h2><p>Discover our vehicle & auto decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These vehicle & auto decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do vehicle & auto decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Vehicle & Auto Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality vehicle & auto decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Vehicle & Auto Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality vehicle & auto decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "car-truck-decals",
+    "title": "Car & Truck Decals in Niagara Falls | Car & Truck Decals",
+    "subtitle": "Premium car & truck decals built for Ontario",
+    "cta": "Shop Car & Truck Decals Now",
+    "productTag": "Car & Truck Decals",
+    "bodyHtml": "<h2>Car & Truck Decals for Niagara Falls</h2><p>Discover our car & truck decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These car & truck decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do car & truck decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Car & Truck Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality car & truck decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Car & Truck Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality car & truck decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "plane-tail-numbers-markings",
+    "title": "Plane Tail Numbers & Markings in Niagara Falls | Plane Tail Numbers & Markings",
+    "subtitle": "Premium plane tail numbers & markings built for Ontario",
+    "cta": "Shop Plane Tail Numbers & Markings Now",
+    "productTag": "Plane Tail Numbers & Markings",
+    "bodyHtml": "<h2>Plane Tail Numbers & Markings for Niagara Falls</h2><p>Discover our plane tail numbers & markings, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These plane tail numbers & markings turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do plane tail numbers & markings last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Plane Tail Numbers & Markings in Niagara Falls | Shop Now",
+      "description": "Discover top-quality plane tail numbers & markings—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Plane Tail Numbers & Markings",
+        "image": [
+          ""
+        ],
+        "description": "High-quality plane tail numbers & markings",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "professional-design-package",
+    "title": "Professional Design Package in Niagara Falls | Professional Design Package",
+    "subtitle": "Premium professional design package built for Ontario",
+    "cta": "Shop Professional Design Package Now",
+    "productTag": "Professional Design Package",
+    "bodyHtml": "<h2>Professional Design Package for Niagara Falls</h2><p>Discover our professional design package, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These professional design package turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do professional design package last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Professional Design Package in Niagara Falls | Shop Now",
+      "description": "Discover top-quality professional design package—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Professional Design Package",
+        "image": [
+          ""
+        ],
+        "description": "High-quality professional design package",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "logo-conversion-vectorization",
+    "title": "Logo Conversion & Vectorization in Niagara Falls | Logo Conversion & Vectorization",
+    "subtitle": "Premium logo conversion & vectorization built for Ontario",
+    "cta": "Shop Logo Conversion & Vectorization Now",
+    "productTag": "Logo Conversion & Vectorization",
+    "bodyHtml": "<h2>Logo Conversion & Vectorization for Niagara Falls</h2><p>Discover our logo conversion & vectorization, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These logo conversion & vectorization turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do logo conversion & vectorization last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Logo Conversion & Vectorization in Niagara Falls | Shop Now",
+      "description": "Discover top-quality logo conversion & vectorization—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Logo Conversion & Vectorization",
+        "image": [
+          ""
+        ],
+        "description": "High-quality logo conversion & vectorization",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "installation-accessories",
+    "title": "Installation Accessories in Niagara Falls | Installation Accessories",
+    "subtitle": "Premium installation accessories built for Ontario",
+    "cta": "Shop Installation Accessories Now",
+    "productTag": "Installation Accessories",
+    "bodyHtml": "<h2>Installation Accessories for Niagara Falls</h2><p>Discover our installation accessories, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These installation accessories turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do installation accessories last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Installation Accessories in Niagara Falls | Shop Now",
+      "description": "Discover top-quality installation accessories—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Installation Accessories",
+        "image": [
+          ""
+        ],
+        "description": "High-quality installation accessories",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "application-tools",
+    "title": "Application Tools in Niagara Falls | Application Tools",
+    "subtitle": "Premium application tools built for Ontario",
+    "cta": "Shop Application Tools Now",
+    "productTag": "Application Tools",
+    "bodyHtml": "<h2>Application Tools for Niagara Falls</h2><p>Discover our application tools, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These application tools turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do application tools last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Application Tools in Niagara Falls | Shop Now",
+      "description": "Discover top-quality application tools—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Application Tools",
+        "image": [
+          ""
+        ],
+        "description": "High-quality application tools",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "cleaning-solutions",
+    "title": "Cleaning Solutions in Niagara Falls | Cleaning Solutions",
+    "subtitle": "Premium cleaning solutions built for Ontario",
+    "cta": "Shop Cleaning Solutions Now",
+    "productTag": "Cleaning Solutions",
+    "bodyHtml": "<h2>Cleaning Solutions for Niagara Falls</h2><p>Discover our cleaning solutions, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These cleaning solutions turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do cleaning solutions last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Cleaning Solutions in Niagara Falls | Shop Now",
+      "description": "Discover top-quality cleaning solutions—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Cleaning Solutions",
+        "image": [
+          ""
+        ],
+        "description": "High-quality cleaning solutions",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "protective-coatings",
+    "title": "Protective Coatings in Niagara Falls | Protective Coatings",
+    "subtitle": "Premium protective coatings built for Ontario",
+    "cta": "Shop Protective Coatings Now",
+    "productTag": "Protective Coatings",
+    "bodyHtml": "<h2>Protective Coatings for Niagara Falls</h2><p>Discover our protective coatings, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These protective coatings turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do protective coatings last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Protective Coatings in Niagara Falls | Shop Now",
+      "description": "Discover top-quality protective coatings—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Protective Coatings",
+        "image": [
+          ""
+        ],
+        "description": "High-quality protective coatings",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "decals",
+    "title": "Decals & Stickers in Niagara Falls | Decals & Stickers",
+    "subtitle": "Premium decals & stickers built for Ontario",
+    "cta": "Shop Decals & Stickers Now",
+    "productTag": "Decals & Stickers",
+    "bodyHtml": "<h2>Decals & Stickers for Niagara Falls</h2><p>Discover our decals & stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These decals & stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do decals & stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Decals & Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality decals & stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Decals & Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality decals & stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "security-decals",
+    "title": "Security Decals in Niagara Falls | Security Decals",
+    "subtitle": "Premium security decals built for Ontario",
+    "cta": "Shop Security Decals Now",
+    "productTag": "Security Decals",
+    "bodyHtml": "<h2>Security Decals for Niagara Falls</h2><p>Discover our security decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These security decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do security decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Security Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality security decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Security Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality security decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "military-decals",
+    "title": "Military & Emblem Decals in Niagara Falls | Military & Emblem Decals",
+    "subtitle": "Premium military & emblem decals built for Ontario",
+    "cta": "Shop Military & Emblem Decals Now",
+    "productTag": "Military & Emblem Decals",
+    "bodyHtml": "<h2>Military & Emblem Decals for Niagara Falls</h2><p>Discover our military & emblem decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These military & emblem decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do military & emblem decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Military & Emblem Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality military & emblem decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Military & Emblem Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality military & emblem decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "themed-stickers",
+    "title": "Themed Graphics & Novelty Stickers in Niagara Falls | Themed Graphics & Novelty Stickers",
+    "subtitle": "Premium themed graphics & novelty stickers built for Ontario",
+    "cta": "Shop Themed Graphics & Novelty Stickers Now",
+    "productTag": "Themed Graphics & Novelty Stickers",
+    "bodyHtml": "<h2>Themed Graphics & Novelty Stickers for Niagara Falls</h2><p>Discover our themed graphics & novelty stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These themed graphics & novelty stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do themed graphics & novelty stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Themed Graphics & Novelty Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality themed graphics & novelty stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Themed Graphics & Novelty Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality themed graphics & novelty stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "signage",
+    "title": "Signs & Displays in Niagara Falls | Signs & Displays",
+    "subtitle": "Premium signs & displays built for Ontario",
+    "cta": "Shop Signs & Displays Now",
+    "productTag": "Signs & Displays",
+    "bodyHtml": "<h2>Signs & Displays for Niagara Falls</h2><p>Discover our signs & displays, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These signs & displays turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do signs & displays last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Signs & Displays in Niagara Falls | Shop Now",
+      "description": "Discover top-quality signs & displays—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Signs & Displays",
+        "image": [
+          ""
+        ],
+        "description": "High-quality signs & displays",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "business-signs-frames",
+    "title": "Business Signs & Frames in Niagara Falls | Business Signs & Frames",
+    "subtitle": "Premium business signs & frames built for Ontario",
+    "cta": "Shop Business Signs & Frames Now",
+    "productTag": "Business Signs & Frames",
+    "bodyHtml": "<h2>Business Signs & Frames for Niagara Falls</h2><p>Discover our business signs & frames, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These business signs & frames turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do business signs & frames last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Business Signs & Frames in Niagara Falls | Shop Now",
+      "description": "Discover top-quality business signs & frames—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Business Signs & Frames",
+        "image": [
+          ""
+        ],
+        "description": "High-quality business signs & frames",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "banners",
+    "title": "Banners & Large Prints in Niagara Falls | Banners & Large Prints",
+    "subtitle": "Premium banners & large prints built for Ontario",
+    "cta": "Shop Banners & Large Prints Now",
+    "productTag": "Banners & Large Prints",
+    "bodyHtml": "<h2>Banners & Large Prints for Niagara Falls</h2><p>Discover our banners & large prints, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These banners & large prints turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do banners & large prints last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Banners & Large Prints in Niagara Falls | Shop Now",
+      "description": "Discover top-quality banners & large prints—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Banners & Large Prints",
+        "image": [
+          ""
+        ],
+        "description": "High-quality banners & large prints",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "labels",
+    "title": "Labels & Packaging in Niagara Falls | Labels & Packaging",
+    "subtitle": "Premium labels & packaging built for Ontario",
+    "cta": "Shop Labels & Packaging Now",
+    "productTag": "Labels & Packaging",
+    "bodyHtml": "<h2>Labels & Packaging for Niagara Falls</h2><p>Discover our labels & packaging, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These labels & packaging turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do labels & packaging last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Labels & Packaging in Niagara Falls | Shop Now",
+      "description": "Discover top-quality labels & packaging—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Labels & Packaging",
+        "image": [
+          ""
+        ],
+        "description": "High-quality labels & packaging",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "food-beverage",
+    "title": "Food & Beverage Labels in Niagara Falls | Food & Beverage Labels",
+    "subtitle": "Premium food & beverage labels built for Ontario",
+    "cta": "Shop Food & Beverage Labels Now",
+    "productTag": "Food & Beverage Labels",
+    "bodyHtml": "<h2>Food & Beverage Labels for Niagara Falls</h2><p>Discover our food & beverage labels, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These food & beverage labels turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do food & beverage labels last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Food & Beverage Labels in Niagara Falls | Shop Now",
+      "description": "Discover top-quality food & beverage labels—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Food & Beverage Labels",
+        "image": [
+          ""
+        ],
+        "description": "High-quality food & beverage labels",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "cannabis",
+    "title": "Cannabis Product Labels in Niagara Falls | Cannabis Product Labels",
+    "subtitle": "Premium cannabis product labels built for Ontario",
+    "cta": "Shop Cannabis Product Labels Now",
+    "productTag": "Cannabis Product Labels",
+    "bodyHtml": "<h2>Cannabis Product Labels for Niagara Falls</h2><p>Discover our cannabis product labels, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These cannabis product labels turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do cannabis product labels last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Cannabis Product Labels in Niagara Falls | Shop Now",
+      "description": "Discover top-quality cannabis product labels—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Cannabis Product Labels",
+        "image": [
+          ""
+        ],
+        "description": "High-quality cannabis product labels",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "beauty-wellness",
+    "title": "Health & Beauty Labels in Niagara Falls | Health & Beauty Labels",
+    "subtitle": "Premium health & beauty labels built for Ontario",
+    "cta": "Shop Health & Beauty Labels Now",
+    "productTag": "Health & Beauty Labels",
+    "bodyHtml": "<h2>Health & Beauty Labels for Niagara Falls</h2><p>Discover our health & beauty labels, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These health & beauty labels turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do health & beauty labels last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Health & Beauty Labels in Niagara Falls | Shop Now",
+      "description": "Discover top-quality health & beauty labels—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Health & Beauty Labels",
+        "image": [
+          ""
+        ],
+        "description": "High-quality health & beauty labels",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "packaging",
+    "title": "Custom Packaging Solutions in Niagara Falls | Custom Packaging Solutions",
+    "subtitle": "Premium custom packaging solutions built for Ontario",
+    "cta": "Shop Custom Packaging Solutions Now",
+    "productTag": "Custom Packaging Solutions",
+    "bodyHtml": "<h2>Custom Packaging Solutions for Niagara Falls</h2><p>Discover our custom packaging solutions, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These custom packaging solutions turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do custom packaging solutions last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Custom Packaging Solutions in Niagara Falls | Shop Now",
+      "description": "Discover top-quality custom packaging solutions—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Custom Packaging Solutions",
+        "image": [
+          ""
+        ],
+        "description": "High-quality custom packaging solutions",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "promotional",
+    "title": "Promotional Items in Niagara Falls | Promotional Items",
+    "subtitle": "Premium promotional items built for Ontario",
+    "cta": "Shop Promotional Items Now",
+    "productTag": "Promotional Items",
+    "bodyHtml": "<h2>Promotional Items for Niagara Falls</h2><p>Discover our promotional items, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These promotional items turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do promotional items last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Promotional Items in Niagara Falls | Shop Now",
+      "description": "Discover top-quality promotional items—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Promotional Items",
+        "image": [
+          ""
+        ],
+        "description": "High-quality promotional items",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "vehicle-magnets",
+    "title": "Vehicle Magnets in Niagara Falls | Vehicle Magnets",
+    "subtitle": "Premium vehicle magnets built for Ontario",
+    "cta": "Shop Vehicle Magnets Now",
+    "productTag": "Vehicle Magnets",
+    "bodyHtml": "<h2>Vehicle Magnets for Niagara Falls</h2><p>Discover our vehicle magnets, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These vehicle magnets turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do vehicle magnets last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Vehicle Magnets in Niagara Falls | Shop Now",
+      "description": "Discover top-quality vehicle magnets—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Vehicle Magnets",
+        "image": [
+          ""
+        ],
+        "description": "High-quality vehicle magnets",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "nfc-review-cards",
+    "title": "NFC Review Cards in Niagara Falls | NFC Review Cards",
+    "subtitle": "Premium nfc review cards built for Ontario",
+    "cta": "Shop NFC Review Cards Now",
+    "productTag": "NFC Review Cards",
+    "bodyHtml": "<h2>NFC Review Cards for Niagara Falls</h2><p>Discover our nfc review cards, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These nfc review cards turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do nfc review cards last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "NFC Review Cards in Niagara Falls | Shop Now",
+      "description": "Discover top-quality nfc review cards—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "NFC Review Cards",
+        "image": [
+          ""
+        ],
+        "description": "High-quality nfc review cards",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "branded-merchandise",
+    "title": "Branded Merchandise in Niagara Falls | Branded Merchandise",
+    "subtitle": "Premium branded merchandise built for Ontario",
+    "cta": "Shop Branded Merchandise Now",
+    "productTag": "Branded Merchandise",
+    "bodyHtml": "<h2>Branded Merchandise for Niagara Falls</h2><p>Discover our branded merchandise, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These branded merchandise turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do branded merchandise last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Branded Merchandise in Niagara Falls | Shop Now",
+      "description": "Discover top-quality branded merchandise—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Branded Merchandise",
+        "image": [
+          ""
+        ],
+        "description": "High-quality branded merchandise",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "boat-decals",
+    "title": "Boat-decals in Niagara Falls | Boat-decals",
+    "subtitle": "Premium boat-decals built for Ontario",
+    "cta": "Shop Boat-decals Now",
+    "productTag": "Boat-decals",
+    "bodyHtml": "<h2>Boat-decals for Niagara Falls</h2><p>Discover our boat-decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These boat-decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do boat-decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Boat-decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality boat-decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Boat-decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality boat-decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "decal",
+    "title": "Decal in Niagara Falls | Decal",
+    "subtitle": "Premium decal built for Ontario",
+    "cta": "Shop Decal Now",
+    "productTag": "Decal",
+    "bodyHtml": "<h2>Decal for Niagara Falls</h2><p>Discover our decal, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These decal turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do decal last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Decal in Niagara Falls | Shop Now",
+      "description": "Discover top-quality decal—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Decal",
+        "image": [
+          ""
+        ],
+        "description": "High-quality decal",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "featured-products-1",
+    "title": "Featured Products in Niagara Falls | Featured Products",
+    "subtitle": "Premium featured products built for Ontario",
+    "cta": "Shop Featured Products Now",
+    "productTag": "Featured Products",
+    "bodyHtml": "<h2>Featured Products for Niagara Falls</h2><p>Discover our featured products, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These featured products turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do featured products last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Featured Products in Niagara Falls | Shop Now",
+      "description": "Discover top-quality featured products—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/d8e7748a6d2bc4f2dfcf669f6440b0a8.jpg?v=1743238088",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Featured Products",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/d8e7748a6d2bc4f2dfcf669f6440b0a8.jpg?v=1743238088"
+        ],
+        "description": "High-quality featured products",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "sticker-collection",
+    "title": "Sticker Collection in Niagara Falls | Sticker Collection",
+    "subtitle": "Premium sticker collection built for Ontario",
+    "cta": "Shop Sticker Collection Now",
+    "productTag": "Sticker Collection",
+    "bodyHtml": "<h2>Sticker Collection for Niagara Falls</h2><p>Discover our sticker collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These sticker collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do sticker collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Sticker Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality sticker collection—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/14ba5f7b686e6271e9b229d13db09926.png?v=1743292248",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Sticker Collection",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/14ba5f7b686e6271e9b229d13db09926.png?v=1743292248"
+        ],
+        "description": "High-quality sticker collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "waterproof-stickers",
+    "title": "Waterproof Stickers in Niagara Falls | Waterproof Stickers",
+    "subtitle": "Premium waterproof stickers built for Ontario",
+    "cta": "Shop Waterproof Stickers Now",
+    "productTag": "Waterproof Stickers",
+    "bodyHtml": "<h2>Waterproof Stickers for Niagara Falls</h2><p>Discover our waterproof stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These waterproof stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do waterproof stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Waterproof Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality waterproof stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Waterproof Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality waterproof stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "laptop-stickers",
+    "title": "Laptop Stickers in Niagara Falls | Laptop Stickers",
+    "subtitle": "Premium laptop stickers built for Ontario",
+    "cta": "Shop Laptop Stickers Now",
+    "productTag": "Laptop Stickers",
+    "bodyHtml": "<h2>Laptop Stickers for Niagara Falls</h2><p>Discover our laptop stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These laptop stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do laptop stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Laptop Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality laptop stickers—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/724c1276f39181640d0d6fc160de74bf.png?v=1743292221",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Laptop Stickers",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/724c1276f39181640d0d6fc160de74bf.png?v=1743292221"
+        ],
+        "description": "High-quality laptop stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "promotional-decals",
+    "title": "Promotional Decals in Niagara Falls | Promotional Decals",
+    "subtitle": "Premium promotional decals built for Ontario",
+    "cta": "Shop Promotional Decals Now",
+    "productTag": "Promotional Decals",
+    "bodyHtml": "<h2>Promotional Decals for Niagara Falls</h2><p>Discover our promotional decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These promotional decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do promotional decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Promotional Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality promotional decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Promotional Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality promotional decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "outdoor-decals",
+    "title": "Outdoor Decals in Niagara Falls | Outdoor Decals",
+    "subtitle": "Premium outdoor decals built for Ontario",
+    "cta": "Shop Outdoor Decals Now",
+    "productTag": "Outdoor Decals",
+    "bodyHtml": "<h2>Outdoor Decals for Niagara Falls</h2><p>Discover our outdoor decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These outdoor decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do outdoor decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Outdoor Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality outdoor decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Outdoor Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality outdoor decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "travel-decals",
+    "title": "Travel Decals in Niagara Falls | Travel Decals",
+    "subtitle": "Premium travel decals built for Ontario",
+    "cta": "Shop Travel Decals Now",
+    "productTag": "Travel Decals",
+    "bodyHtml": "<h2>Travel Decals for Niagara Falls</h2><p>Discover our travel decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These travel decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do travel decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Travel Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality travel decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Travel Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality travel decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "nature-stickers",
+    "title": "Nature Stickers in Niagara Falls | Nature Stickers",
+    "subtitle": "Premium nature stickers built for Ontario",
+    "cta": "Shop Nature Stickers Now",
+    "productTag": "Nature Stickers",
+    "bodyHtml": "<h2>Nature Stickers for Niagara Falls</h2><p>Discover our nature stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These nature stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do nature stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Nature Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality nature stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Nature Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality nature stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "vehicle-decals-1",
+    "title": "Vehicle Decals in Niagara Falls | Vehicle Decals",
+    "subtitle": "Premium vehicle decals built for Ontario",
+    "cta": "Shop Vehicle Decals Now",
+    "productTag": "Vehicle Decals",
+    "bodyHtml": "<h2>Vehicle Decals for Niagara Falls</h2><p>Discover our vehicle decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These vehicle decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do vehicle decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Vehicle Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality vehicle decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Vehicle Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality vehicle decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "restaurant-decals",
+    "title": "Restaurant Decals in Niagara Falls | Restaurant Decals",
+    "subtitle": "Premium restaurant decals built for Ontario",
+    "cta": "Shop Restaurant Decals Now",
+    "productTag": "Restaurant Decals",
+    "bodyHtml": "<h2>Restaurant Decals for Niagara Falls</h2><p>Discover our restaurant decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These restaurant decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do restaurant decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Restaurant Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality restaurant decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Restaurant Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality restaurant decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "disney-decals",
+    "title": "Disney Vinyl Decals Collection in Niagara Falls | Disney Vinyl Decals Collection",
+    "subtitle": "Premium disney vinyl decals collection built for Ontario",
+    "cta": "Shop Disney Vinyl Decals Collection Now",
+    "productTag": "Disney Vinyl Decals Collection",
+    "bodyHtml": "<h2>Disney Vinyl Decals Collection for Niagara Falls</h2><p>Discover our disney vinyl decals collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These disney vinyl decals collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do disney vinyl decals collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Disney Vinyl Decals Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality disney vinyl decals collection—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Disney_Vinyl_Decals_Collection_Small_9132818d-e28e-4016-851d-21ba28ea8dc6.jpg?v=1744183748",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Disney Vinyl Decals Collection",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Disney_Vinyl_Decals_Collection_Small_9132818d-e28e-4016-851d-21ba28ea8dc6.jpg?v=1744183748"
+        ],
+        "description": "High-quality disney vinyl decals collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "character-decals",
+    "title": "Character Decals in Niagara Falls | Character Decals",
+    "subtitle": "Premium character decals built for Ontario",
+    "cta": "Shop Character Decals Now",
+    "productTag": "Character Decals",
+    "bodyHtml": "<h2>Character Decals for Niagara Falls</h2><p>Discover our character decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These character decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do character decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Character Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality character decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Character Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality character decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "political-decals",
+    "title": "Political Decals in Niagara Falls | Political Decals",
+    "subtitle": "Premium political decals built for Ontario",
+    "cta": "Shop Political Decals Now",
+    "productTag": "Political Decals",
+    "bodyHtml": "<h2>Political Decals for Niagara Falls</h2><p>Discover our political decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These political decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do political decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Political Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality political decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Political Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality political decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "minimalist-decals",
+    "title": "Minimalist Decals in Niagara Falls | Minimalist Decals",
+    "subtitle": "Premium minimalist decals built for Ontario",
+    "cta": "Shop Minimalist Decals Now",
+    "productTag": "Minimalist Decals",
+    "bodyHtml": "<h2>Minimalist Decals for Niagara Falls</h2><p>Discover our minimalist decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These minimalist decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do minimalist decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Minimalist Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality minimalist decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Minimalist Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality minimalist decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "personality-decals",
+    "title": "Personality Decals in Niagara Falls | Personality Decals",
+    "subtitle": "Premium personality decals built for Ontario",
+    "cta": "Shop Personality Decals Now",
+    "productTag": "Personality Decals",
+    "bodyHtml": "<h2>Personality Decals for Niagara Falls</h2><p>Discover our personality decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These personality decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do personality decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Personality Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality personality decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Personality Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality personality decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "humorous-decals",
+    "title": "Humorous Decals in Niagara Falls | Humorous Decals",
+    "subtitle": "Premium humorous decals built for Ontario",
+    "cta": "Shop Humorous Decals Now",
+    "productTag": "Humorous Decals",
+    "bodyHtml": "<h2>Humorous Decals for Niagara Falls</h2><p>Discover our humorous decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These humorous decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do humorous decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Humorous Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality humorous decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Humorous Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality humorous decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "national-symbol-stickers",
+    "title": "National Symbol Stickers in Niagara Falls | National Symbol Stickers",
+    "subtitle": "Premium national symbol stickers built for Ontario",
+    "cta": "Shop National Symbol Stickers Now",
+    "productTag": "National Symbol Stickers",
+    "bodyHtml": "<h2>National Symbol Stickers for Niagara Falls</h2><p>Discover our national symbol stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These national symbol stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do national symbol stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "National Symbol Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality national symbol stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "National Symbol Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality national symbol stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "celebration-decals",
+    "title": "Celebration Decals in Niagara Falls | Celebration Decals",
+    "subtitle": "Premium celebration decals built for Ontario",
+    "cta": "Shop Celebration Decals Now",
+    "productTag": "Celebration Decals",
+    "bodyHtml": "<h2>Celebration Decals for Niagara Falls</h2><p>Discover our celebration decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These celebration decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do celebration decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Celebration Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality celebration decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Celebration Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality celebration decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "humorous-stickers",
+    "title": "Humorous Stickers in Niagara Falls | Humorous Stickers",
+    "subtitle": "Premium humorous stickers built for Ontario",
+    "cta": "Shop Humorous Stickers Now",
+    "productTag": "Humorous Stickers",
+    "bodyHtml": "<h2>Humorous Stickers for Niagara Falls</h2><p>Discover our humorous stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These humorous stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do humorous stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Humorous Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality humorous stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Humorous Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality humorous stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "silhouette-decals",
+    "title": "Silhouette Decals in Niagara Falls | Silhouette Decals",
+    "subtitle": "Premium silhouette decals built for Ontario",
+    "cta": "Shop Silhouette Decals Now",
+    "productTag": "Silhouette Decals",
+    "bodyHtml": "<h2>Silhouette Decals for Niagara Falls</h2><p>Discover our silhouette decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These silhouette decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do silhouette decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Silhouette Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality silhouette decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Silhouette Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality silhouette decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "adventure-decals",
+    "title": "Adventure Decals in Niagara Falls | Adventure Decals",
+    "subtitle": "Premium adventure decals built for Ontario",
+    "cta": "Shop Adventure Decals Now",
+    "productTag": "Adventure Decals",
+    "bodyHtml": "<h2>Adventure Decals for Niagara Falls</h2><p>Discover our adventure decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These adventure decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do adventure decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Adventure Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality adventure decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Adventure Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality adventure decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "animal-stickers",
+    "title": "Animal Stickers in Niagara Falls | Animal Stickers",
+    "subtitle": "Premium animal stickers built for Ontario",
+    "cta": "Shop Animal Stickers Now",
+    "productTag": "Animal Stickers",
+    "bodyHtml": "<h2>Animal Stickers for Niagara Falls</h2><p>Discover our animal stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These animal stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do animal stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Animal Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality animal stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Animal Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality animal stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "martial-arts-decals",
+    "title": "Martial Arts Decals in Niagara Falls | Martial Arts Decals",
+    "subtitle": "Premium martial arts decals built for Ontario",
+    "cta": "Shop Martial Arts Decals Now",
+    "productTag": "Martial Arts Decals",
+    "bodyHtml": "<h2>Martial Arts Decals for Niagara Falls</h2><p>Discover our martial arts decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These martial arts decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do martial arts decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Martial Arts Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality martial arts decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Martial Arts Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality martial arts decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "motivational-stickers",
+    "title": "Motivational Stickers in Niagara Falls | Motivational Stickers",
+    "subtitle": "Premium motivational stickers built for Ontario",
+    "cta": "Shop Motivational Stickers Now",
+    "productTag": "Motivational Stickers",
+    "bodyHtml": "<h2>Motivational Stickers for Niagara Falls</h2><p>Discover our motivational stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These motivational stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do motivational stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Motivational Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality motivational stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Motivational Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality motivational stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "geometric-decals",
+    "title": "Geometric Decals in Niagara Falls | Geometric Decals",
+    "subtitle": "Premium geometric decals built for Ontario",
+    "cta": "Shop Geometric Decals Now",
+    "productTag": "Geometric Decals",
+    "bodyHtml": "<h2>Geometric Decals for Niagara Falls</h2><p>Discover our geometric decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These geometric decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do geometric decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Geometric Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality geometric decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Geometric Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality geometric decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "religious-stickers",
+    "title": "Religious Stickers in Niagara Falls | Religious Stickers",
+    "subtitle": "Premium religious stickers built for Ontario",
+    "cta": "Shop Religious Stickers Now",
+    "productTag": "Religious Stickers",
+    "bodyHtml": "<h2>Religious Stickers for Niagara Falls</h2><p>Discover our religious stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These religious stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do religious stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Religious Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality religious stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Religious Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality religious stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "outdoor-stickers",
+    "title": "Outdoor Stickers in Niagara Falls | Outdoor Stickers",
+    "subtitle": "Premium outdoor stickers built for Ontario",
+    "cta": "Shop Outdoor Stickers Now",
+    "productTag": "Outdoor Stickers",
+    "bodyHtml": "<h2>Outdoor Stickers for Niagara Falls</h2><p>Discover our outdoor stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These outdoor stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do outdoor stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Outdoor Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality outdoor stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Outdoor Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality outdoor stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "movie-character-decals",
+    "title": "Movie Character Decals in Niagara Falls | Movie Character Decals",
+    "subtitle": "Premium movie character decals built for Ontario",
+    "cta": "Shop Movie Character Decals Now",
+    "productTag": "Movie Character Decals",
+    "bodyHtml": "<h2>Movie Character Decals for Niagara Falls</h2><p>Discover our movie character decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These movie character decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do movie character decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Movie Character Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality movie character decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Movie Character Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality movie character decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "protective-case-decals",
+    "title": "Protective Case Decals in Niagara Falls | Protective Case Decals",
+    "subtitle": "Premium protective case decals built for Ontario",
+    "cta": "Shop Protective Case Decals Now",
+    "productTag": "Protective Case Decals",
+    "bodyHtml": "<h2>Protective Case Decals for Niagara Falls</h2><p>Discover our protective case decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These protective case decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do protective case decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Protective Case Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality protective case decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Protective Case Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality protective case decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "adventure-stickers",
+    "title": "Adventure Stickers in Niagara Falls | Adventure Stickers",
+    "subtitle": "Premium adventure stickers built for Ontario",
+    "cta": "Shop Adventure Stickers Now",
+    "productTag": "Adventure Stickers",
+    "bodyHtml": "<h2>Adventure Stickers for Niagara Falls</h2><p>Discover our adventure stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These adventure stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do adventure stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Adventure Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality adventure stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Adventure Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality adventure stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "disney-stickers",
+    "title": "Disney Stickers in Niagara Falls | Disney Stickers",
+    "subtitle": "Premium disney stickers built for Ontario",
+    "cta": "Shop Disney Stickers Now",
+    "productTag": "Disney Stickers",
+    "bodyHtml": "<h2>Disney Stickers for Niagara Falls</h2><p>Discover our disney stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These disney stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do disney stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Disney Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality disney stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Disney Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality disney stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "statement-stickers",
+    "title": "Statement Stickers in Niagara Falls | Statement Stickers",
+    "subtitle": "Premium statement stickers built for Ontario",
+    "cta": "Shop Statement Stickers Now",
+    "productTag": "Statement Stickers",
+    "bodyHtml": "<h2>Statement Stickers for Niagara Falls</h2><p>Discover our statement stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These statement stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do statement stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Statement Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality statement stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Statement Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality statement stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "inspirational-stickers",
+    "title": "Inspirational Stickers in Niagara Falls | Inspirational Stickers",
+    "subtitle": "Premium inspirational stickers built for Ontario",
+    "cta": "Shop Inspirational Stickers Now",
+    "productTag": "Inspirational Stickers",
+    "bodyHtml": "<h2>Inspirational Stickers for Niagara Falls</h2><p>Discover our inspirational stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These inspirational stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do inspirational stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Inspirational Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality inspirational stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Inspirational Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality inspirational stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "motivational-decals",
+    "title": "Motivational Decals in Niagara Falls | Motivational Decals",
+    "subtitle": "Premium motivational decals built for Ontario",
+    "cta": "Shop Motivational Decals Now",
+    "productTag": "Motivational Decals",
+    "bodyHtml": "<h2>Motivational Decals for Niagara Falls</h2><p>Discover our motivational decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These motivational decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do motivational decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Motivational Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality motivational decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Motivational Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality motivational decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "music-stickers",
+    "title": "Music Stickers in Niagara Falls | Music Stickers",
+    "subtitle": "Premium music stickers built for Ontario",
+    "cta": "Shop Music Stickers Now",
+    "productTag": "Music Stickers",
+    "bodyHtml": "<h2>Music Stickers for Niagara Falls</h2><p>Discover our music stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These music stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do music stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Music Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality music stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Music Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality music stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "disney-character-decals",
+    "title": "Disney Character Decals in Niagara Falls | Disney Character Decals",
+    "subtitle": "Premium disney character decals built for Ontario",
+    "cta": "Shop Disney Character Decals Now",
+    "productTag": "Disney Character Decals",
+    "bodyHtml": "<h2>Disney Character Decals for Niagara Falls</h2><p>Discover our disney character decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These disney character decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do disney character decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Disney Character Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality disney character decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Disney Character Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality disney character decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "humor-stickers",
+    "title": "Humor Stickers in Niagara Falls | Humor Stickers",
+    "subtitle": "Premium humor stickers built for Ontario",
+    "cta": "Shop Humor Stickers Now",
+    "productTag": "Humor Stickers",
+    "bodyHtml": "<h2>Humor Stickers for Niagara Falls</h2><p>Discover our humor stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These humor stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do humor stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Humor Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality humor stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Humor Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality humor stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "greeting-decals",
+    "title": "Greeting Decals in Niagara Falls | Greeting Decals",
+    "subtitle": "Premium greeting decals built for Ontario",
+    "cta": "Shop Greeting Decals Now",
+    "productTag": "Greeting Decals",
+    "bodyHtml": "<h2>Greeting Decals for Niagara Falls</h2><p>Discover our greeting decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These greeting decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do greeting decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Greeting Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality greeting decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Greeting Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality greeting decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "holiday-stickers",
+    "title": "Holiday Stickers in Niagara Falls | Holiday Stickers",
+    "subtitle": "Premium holiday stickers built for Ontario",
+    "cta": "Shop Holiday Stickers Now",
+    "productTag": "Holiday Stickers",
+    "bodyHtml": "<h2>Holiday Stickers for Niagara Falls</h2><p>Discover our holiday stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These holiday stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do holiday stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Holiday Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality holiday stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Holiday Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality holiday stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "cartoon-decals",
+    "title": "Cartoon Decals in Niagara Falls | Cartoon Decals",
+    "subtitle": "Premium cartoon decals built for Ontario",
+    "cta": "Shop Cartoon Decals Now",
+    "productTag": "Cartoon Decals",
+    "bodyHtml": "<h2>Cartoon Decals for Niagara Falls</h2><p>Discover our cartoon decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These cartoon decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do cartoon decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Cartoon Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality cartoon decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Cartoon Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality cartoon decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "nature-decals",
+    "title": "Nature Decals in Niagara Falls | Nature Decals",
+    "subtitle": "Premium nature decals built for Ontario",
+    "cta": "Shop Nature Decals Now",
+    "productTag": "Nature Decals",
+    "bodyHtml": "<h2>Nature Decals for Niagara Falls</h2><p>Discover our nature decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These nature decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do nature decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Nature Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality nature decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Nature Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality nature decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "travel-stickers",
+    "title": "Travel Stickers in Niagara Falls | Travel Stickers",
+    "subtitle": "Premium travel stickers built for Ontario",
+    "cta": "Shop Travel Stickers Now",
+    "productTag": "Travel Stickers",
+    "bodyHtml": "<h2>Travel Stickers for Niagara Falls</h2><p>Discover our travel stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These travel stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do travel stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Travel Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality travel stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Travel Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality travel stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "regional-stickers",
+    "title": "Regional Stickers in Niagara Falls | Regional Stickers",
+    "subtitle": "Premium regional stickers built for Ontario",
+    "cta": "Shop Regional Stickers Now",
+    "productTag": "Regional Stickers",
+    "bodyHtml": "<h2>Regional Stickers for Niagara Falls</h2><p>Discover our regional stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These regional stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do regional stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Regional Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality regional stickers—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Regional Stickers",
+        "image": [
+          ""
+        ],
+        "description": "High-quality regional stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "backpack-decals",
+    "title": "Backpack Decals in Niagara Falls | Backpack Decals",
+    "subtitle": "Premium backpack decals built for Ontario",
+    "cta": "Shop Backpack Decals Now",
+    "productTag": "Backpack Decals",
+    "bodyHtml": "<h2>Backpack Decals for Niagara Falls</h2><p>Discover our backpack decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These backpack decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do backpack decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Backpack Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality backpack decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Backpack Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality backpack decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "automotive-decals",
+    "title": "Automotive Decals in Niagara Falls | Automotive Decals",
+    "subtitle": "Premium automotive decals built for Ontario",
+    "cta": "Shop Automotive Decals Now",
+    "productTag": "Automotive Decals",
+    "bodyHtml": "<h2>Automotive Decals for Niagara Falls</h2><p>Discover our automotive decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These automotive decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do automotive decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Automotive Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality automotive decals—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Collection_Banner.png?v=1744270764",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Automotive Decals",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Collection_Banner.png?v=1744270764"
+        ],
+        "description": "High-quality automotive decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "case-decals",
+    "title": "Case Decals in Niagara Falls | Case Decals",
+    "subtitle": "Premium case decals built for Ontario",
+    "cta": "Shop Case Decals Now",
+    "productTag": "Case Decals",
+    "bodyHtml": "<h2>Case Decals for Niagara Falls</h2><p>Discover our case decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These case decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do case decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Case Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality case decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Case Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality case decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "outdoor-recreation-decals",
+    "title": "Outdoor Recreation Decals in Niagara Falls | Outdoor Recreation Decals",
+    "subtitle": "Premium outdoor recreation decals built for Ontario",
+    "cta": "Shop Outdoor Recreation Decals Now",
+    "productTag": "Outdoor Recreation Decals",
+    "bodyHtml": "<h2>Outdoor Recreation Decals for Niagara Falls</h2><p>Discover our outdoor recreation decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These outdoor recreation decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do outdoor recreation decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Outdoor Recreation Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality outdoor recreation decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Outdoor Recreation Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality outdoor recreation decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "regional-decals",
+    "title": "Regional Decals in Niagara Falls | Regional Decals",
+    "subtitle": "Premium regional decals built for Ontario",
+    "cta": "Shop Regional Decals Now",
+    "productTag": "Regional Decals",
+    "bodyHtml": "<h2>Regional Decals for Niagara Falls</h2><p>Discover our regional decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These regional decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do regional decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Regional Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality regional decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Regional Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality regional decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "brand-decals",
+    "title": "Brand Decals in Niagara Falls | Brand Decals",
+    "subtitle": "Premium brand decals built for Ontario",
+    "cta": "Shop Brand Decals Now",
+    "productTag": "Brand Decals",
+    "bodyHtml": "<h2>Brand Decals for Niagara Falls</h2><p>Discover our brand decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These brand decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do brand decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Brand Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality brand decals—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Collection_Banner_766a9a59-acc5-4586-9f56-48d46c0fbf86.png?v=1744271331",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Brand Decals",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Collection_Banner_766a9a59-acc5-4586-9f56-48d46c0fbf86.png?v=1744271331"
+        ],
+        "description": "High-quality brand decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "branding-decals",
+    "title": "Branding Decals in Niagara Falls | Branding Decals",
+    "subtitle": "Premium branding decals built for Ontario",
+    "cta": "Shop Branding Decals Now",
+    "productTag": "Branding Decals",
+    "bodyHtml": "<h2>Branding Decals for Niagara Falls</h2><p>Discover our branding decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These branding decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do branding decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Branding Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality branding decals—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Branding Decals",
+        "image": [
+          ""
+        ],
+        "description": "High-quality branding decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "sustainable-decals",
+    "title": "Eco Collection in Niagara Falls | Eco Collection",
+    "subtitle": "Premium eco collection built for Ontario",
+    "cta": "Shop Eco Collection Now",
+    "productTag": "Eco Collection",
+    "bodyHtml": "<h2>Eco Collection for Niagara Falls</h2><p>Discover our eco collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These eco collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do eco collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Eco Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality eco collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Eco Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality eco collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "business-signs-logos",
+    "title": "Business Collection in Niagara Falls | Business Collection",
+    "subtitle": "Premium business collection built for Ontario",
+    "cta": "Shop Business Collection Now",
+    "productTag": "Business Collection",
+    "bodyHtml": "<h2>Business Collection for Niagara Falls</h2><p>Discover our business collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These business collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do business collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Business Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality business collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Business Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality business collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "food-and-beverage-labels",
+    "title": "Food Collection in Niagara Falls | Food Collection",
+    "subtitle": "Premium food collection built for Ontario",
+    "cta": "Shop Food Collection Now",
+    "productTag": "Food Collection",
+    "bodyHtml": "<h2>Food Collection for Niagara Falls</h2><p>Discover our food collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These food collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do food collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Food Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality food collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Food Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality food collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "military-emblem-decals",
+    "title": "Military Collection in Niagara Falls | Military Collection",
+    "subtitle": "Premium military collection built for Ontario",
+    "cta": "Shop Military Collection Now",
+    "productTag": "Military Collection",
+    "bodyHtml": "<h2>Military Collection for Niagara Falls</h2><p>Discover our military collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These military collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do military collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Military Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality military collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Military Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality military collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "wedding-event-graphics",
+    "title": "Event Collection in Niagara Falls | Event Collection",
+    "subtitle": "Premium event collection built for Ontario",
+    "cta": "Shop Event Collection Now",
+    "productTag": "Event Collection",
+    "bodyHtml": "<h2>Event Collection for Niagara Falls</h2><p>Discover our event collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These event collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do event collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Event Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality event collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Event Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality event collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "labels-packaging",
+    "title": "Label Collection in Niagara Falls | Label Collection",
+    "subtitle": "Premium label collection built for Ontario",
+    "cta": "Shop Label Collection Now",
+    "productTag": "Label Collection",
+    "bodyHtml": "<h2>Label Collection for Niagara Falls</h2><p>Discover our label collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These label collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do label collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Label Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality label collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Label Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality label collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "signs-displays",
+    "title": "Signage Collection in Niagara Falls | Signage Collection",
+    "subtitle": "Premium signage collection built for Ontario",
+    "cta": "Shop Signage Collection Now",
+    "productTag": "Signage Collection",
+    "bodyHtml": "<h2>Signage Collection for Niagara Falls</h2><p>Discover our signage collection, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These signage collection turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do signage collection last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Signage Collection in Niagara Falls | Shop Now",
+      "description": "Discover top-quality signage collection—customizable, durable, and delivered fast.",
+      "image": "",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Signage Collection",
+        "image": [
+          ""
+        ],
+        "description": "High-quality signage collection",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "full-partial-wraps",
+    "title": "Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More in Niagara Falls | Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More",
+    "subtitle": "Premium wrap collection – full & partial vinyl decals for vehicles, laptops, walls & more built for Ontario",
+    "cta": "Shop Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More Now",
+    "productTag": "Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More",
+    "bodyHtml": "<h2>Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More for Niagara Falls</h2><p>Discover our wrap collection – full & partial vinyl decals for vehicles, laptops, walls & more, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These wrap collection – full & partial vinyl decals for vehicles, laptops, walls & more turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do wrap collection – full & partial vinyl decals for vehicles, laptops, walls & more last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More in Niagara Falls | Shop Now",
+      "description": "Discover top-quality wrap collection – full & partial vinyl decals for vehicles, laptops, walls & more—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/custom-vinyl-decals-collection-premium-car-stickers-laptop-wall-truck-labels.png?v=1744288193",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Wrap Collection – Full & Partial Vinyl Decals for Vehicles, Laptops, Walls & More",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/custom-vinyl-decals-collection-premium-car-stickers-laptop-wall-truck-labels.png?v=1744288193"
+        ],
+        "description": "High-quality wrap collection – full & partial vinyl decals for vehicles, laptops, walls & more",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "boat-decals-graphics-1",
+    "title": "Boat Decals & Graphics in Niagara Falls | Boat Decals & Graphics",
+    "subtitle": "Premium boat decals & graphics built for Ontario",
+    "cta": "Shop Boat Decals & Graphics Now",
+    "productTag": "Boat Decals & Graphics",
+    "bodyHtml": "<h2>Boat Decals & Graphics for Niagara Falls</h2><p>Discover our boat decals & graphics, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These boat decals & graphics turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do boat decals & graphics last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Boat Decals & Graphics in Niagara Falls | Shop Now",
+      "description": "Discover top-quality boat decals & graphics—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Selection_of_custom_vinyl_boat_decals_including_boat_name_lettering_and_graphics_on_marine-grade_material_Small_e6fc5583-4f6c-4cbe-8ecb-d8361af7ec7f.jpg?v=1744241348",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Boat Decals & Graphics",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Selection_of_custom_vinyl_boat_decals_including_boat_name_lettering_and_graphics_on_marine-grade_material_Small_e6fc5583-4f6c-4cbe-8ecb-d8361af7ec7f.jpg?v=1744241348"
+        ],
+        "description": "High-quality boat decals & graphics",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "registration-numbers-ontario-compliant",
+    "title": "Registration Numbers (Ontario Compliant) in Niagara Falls | Registration Numbers (Ontario Compliant)",
+    "subtitle": "Premium registration numbers (ontario compliant) built for Ontario",
+    "cta": "Shop Registration Numbers (Ontario Compliant) Now",
+    "productTag": "Registration Numbers (Ontario Compliant)",
+    "bodyHtml": "<h2>Registration Numbers (Ontario Compliant) for Niagara Falls</h2><p>Discover our registration numbers (ontario compliant), customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These registration numbers (ontario compliant) turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do registration numbers (ontario compliant) last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Registration Numbers (Ontario Compliant) in Niagara Falls | Shop Now",
+      "description": "Discover top-quality registration numbers (ontario compliant)—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Examples_of_Ontario_compliant_boat_registration_number_decals_in_various_fonts_and_colours_Small_aa08597e-3da0-497d-bda9-57dcf53fcc98.jpg?v=1744241302",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Registration Numbers (Ontario Compliant)",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Examples_of_Ontario_compliant_boat_registration_number_decals_in_various_fonts_and_colours_Small_aa08597e-3da0-497d-bda9-57dcf53fcc98.jpg?v=1744241302"
+        ],
+        "description": "High-quality registration numbers (ontario compliant)",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "custom-decals",
+    "title": "Custom Decals in Niagara Falls | Custom Decals",
+    "subtitle": "Premium custom decals built for Ontario",
+    "cta": "Shop Custom Decals Now",
+    "productTag": "Custom Decals",
+    "bodyHtml": "<h2>Custom Decals for Niagara Falls</h2><p>Discover our custom decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These custom decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do custom decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Custom Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality custom decals—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Assortment_of_custom-designed_vinyl_decals_showcasing_various_shapes_colours_and_applications.png?v=1744241326",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Custom Decals",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Assortment_of_custom-designed_vinyl_decals_showcasing_various_shapes_colours_and_applications.png?v=1744241326"
+        ],
+        "description": "High-quality custom decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "custom-stickers",
+    "title": "Custom Stickers in Niagara Falls | Custom Stickers",
+    "subtitle": "Premium custom stickers built for Ontario",
+    "cta": "Shop Custom Stickers Now",
+    "productTag": "Custom Stickers",
+    "bodyHtml": "<h2>Custom Stickers for Niagara Falls</h2><p>Discover our custom stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These custom stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do custom stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Custom Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality custom stickers—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/custom-vinyl-stickers-product-packaging-branding-laptop-decoration_Small_1eae3e7d-18f2-4b3a-8f96-e139fd518d41.jpg?v=1744241224",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Custom Stickers",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/custom-vinyl-stickers-product-packaging-branding-laptop-decoration_Small_1eae3e7d-18f2-4b3a-8f96-e139fd518d41.jpg?v=1744241224"
+        ],
+        "description": "High-quality custom stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "laptop-stickers-1",
+    "title": "Laptop Stickers in Niagara Falls | Laptop Stickers",
+    "subtitle": "Premium laptop stickers built for Ontario",
+    "cta": "Shop Laptop Stickers Now",
+    "productTag": "Laptop Stickers",
+    "bodyHtml": "<h2>Laptop Stickers for Niagara Falls</h2><p>Discover our laptop stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These laptop stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do laptop stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Laptop Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality laptop stickers—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/funny-aesthetic-vinyl-stickers-on-laptop-lids-custom-decal-designs_Small_40d2e70a-9f76-498d-923a-32f00b6caea6.jpg?v=1744241122",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Laptop Stickers",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/funny-aesthetic-vinyl-stickers-on-laptop-lids-custom-decal-designs_Small_40d2e70a-9f76-498d-923a-32f00b6caea6.jpg?v=1744241122"
+        ],
+        "description": "High-quality laptop stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "rv-trailer-graphics",
+    "title": "RV & Trailer Graphics in Niagara Falls | RV & Trailer Graphics",
+    "subtitle": "Premium rv & trailer graphics built for Ontario",
+    "cta": "Shop RV & Trailer Graphics Now",
+    "productTag": "RV & Trailer Graphics",
+    "bodyHtml": "<h2>RV & Trailer Graphics for Niagara Falls</h2><p>Discover our rv & trailer graphics, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These rv & trailer graphics turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do rv & trailer graphics last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "RV & Trailer Graphics in Niagara Falls | Shop Now",
+      "description": "Discover top-quality rv & trailer graphics—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/RV-and-travel-trailer_Small_a532e775-4308-415b-8de6-70a4939ea213.jpg?v=1744240952",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "RV & Trailer Graphics",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/RV-and-travel-trailer_Small_a532e775-4308-415b-8de6-70a4939ea213.jpg?v=1744240952"
+        ],
+        "description": "High-quality rv & trailer graphics",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "storefront-decals",
+    "title": "Storefront Decals in Niagara Falls | Storefront Decals",
+    "subtitle": "Premium storefront decals built for Ontario",
+    "cta": "Shop Storefront Decals Now",
+    "productTag": "Storefront Decals",
+    "bodyHtml": "<h2>Storefront Decals for Niagara Falls</h2><p>Discover our storefront decals, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These storefront decals turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do storefront decals last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Storefront Decals in Niagara Falls | Shop Now",
+      "description": "Discover top-quality storefront decals—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/storefront-window-vinyl-decals-business-logo-hours-promotions_Small_5b0ac8e2-aeb6-49fd-aaf5-8976192ea5bc.jpg?v=1744240926",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Storefront Decals",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/storefront-window-vinyl-decals-business-logo-hours-promotions_Small_5b0ac8e2-aeb6-49fd-aaf5-8976192ea5bc.jpg?v=1744240926"
+        ],
+        "description": "High-quality storefront decals",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "commercial-vehicle",
+    "title": "Commercial Vehicle in Niagara Falls | Commercial Vehicle",
+    "subtitle": "Premium commercial vehicle built for Ontario",
+    "cta": "Shop Commercial Vehicle Now",
+    "productTag": "Commercial Vehicle",
+    "bodyHtml": "<h2>Commercial Vehicle for Niagara Falls</h2><p>Discover our commercial vehicle, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These commercial vehicle turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do commercial vehicle last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Commercial Vehicle in Niagara Falls | Shop Now",
+      "description": "Discover top-quality commercial vehicle—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Company_van_featuring_a_full_vinyl_wrap_Small_4a232e84-3fc1-461b-ad64-e970487371a3.jpg?v=1744240898",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Commercial Vehicle",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Company_van_featuring_a_full_vinyl_wrap_Small_4a232e84-3fc1-461b-ad64-e970487371a3.jpg?v=1744240898"
+        ],
+        "description": "High-quality commercial vehicle",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  },
+  {
+    "slug": "waterproof-stickers-1",
+    "title": "Waterproof Stickers in Niagara Falls | Waterproof Stickers",
+    "subtitle": "Premium waterproof stickers built for Ontario",
+    "cta": "Shop Waterproof Stickers Now",
+    "productTag": "Waterproof Stickers",
+    "bodyHtml": "<h2>Waterproof Stickers for Niagara Falls</h2><p>Discover our waterproof stickers, customizable, durable, and delivered fast.</p>",
+    "testimonial": "“These waterproof stickers turned heads on my ride!”",
+    "author": "Jordan from Niagara Falls",
+    "faq": [
+      {
+        "question": "How long do waterproof stickers last?",
+        "answer": "Our marine-grade vinyl lasts 5+ years outdoors."
+      },
+      {
+        "question": "Can I install them myself?",
+        "answer": "Yes – each pack includes a step-by-step guide."
+      }
+    ],
+    "seo": {
+      "title": "Waterproof Stickers in Niagara Falls | Shop Now",
+      "description": "Discover top-quality waterproof stickers—customizable, durable, and delivered fast.",
+      "image": "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Waterproof_Stickers_Small_eb78f61f-9620-4a8b-ac28-6206dcef59a4.jpg?v=1744288034",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Waterproof Stickers",
+        "image": [
+          "https://cdn.shopify.com/s/files/1/0748/9824/3835/collections/Waterproof_Stickers_Small_eb78f61f-9620-4a8b-ac28-6206dcef59a4.jpg?v=1744288034"
+        ],
+        "description": "High-quality waterproof stickers",
+        "brand": {
+          "@type": "Brand",
+          "name": "Niagara Stands Out"
+        }
+      }
+    }
+  }
+]
