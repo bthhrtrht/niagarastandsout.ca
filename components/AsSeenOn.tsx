@@ -25,8 +25,8 @@ export default function AsSeenOn({ logos }: { logos: Logo[] }) {
               style={{ width: '48px', height: '48px' }}
             >
               <Image
-                src={ICONS[key] || ICONS.default}
-                alt={ICON_ALTS[key] || logo.alt || key.replace(/-/g, ' ')}
+                src={ICONS[key]?.title || ICONS.default.title}
+                alt={ICON_ALTS[key] || logo.alt || key.replace(/-/g, ' ') }
                 width={48}
                 height={48}
                 className="w-full h-full object-contain opacity-60 hover:opacity-90 transition duration-200"

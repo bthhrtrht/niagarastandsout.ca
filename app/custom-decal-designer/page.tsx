@@ -1,4 +1,6 @@
 'use client';
+export const dynamic = 'error';
+
 import React, { useState, useRef, useEffect } from 'react';
 
 export default function CustomDecalDesigner() {

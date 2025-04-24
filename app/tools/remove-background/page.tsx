@@ -1,4 +1,6 @@
 'use client';
+export const dynamic = 'error';
+
 import React, { useState } from 'react';
 
 export default function RemoveBackgroundTool() {

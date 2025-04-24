@@ -164,4 +164,4 @@ export async function getProductsByTag(tag: string): Promise<TaggedProduct[]> {
 // Re-export collection utilities for imports from '@/lib/shopify'
 export { getAllCollections } from './getAllCollections';
 export type { Collection } from './getAllCollections';
-export { getCollectionProducts } from './collections';
+export { getCollectionProducts, getCollectionByHandle } from './collections';

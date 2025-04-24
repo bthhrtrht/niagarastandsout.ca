@@ -1,14 +1,12 @@
 import { getProductByHandle } from '@/lib/shopify';
-import type { TaggedProduct } from '@/lib/shopify';
 import ProductImageGallery from '@/components/ProductImageGallery';
 import ProductInfoPanel from '@/components/ProductInfoPanel';
 import TrustIcons from '@/components/TrustIcons';
 import AccordionTabs from '@/components/AccordionTabs';
 import Testimonials from '@/components/Testimonials';
-import RelatedProducts from '@/components/RelatedProducts';
+import RelatedCarousel from '@/components/RelatedCarousel';
 import { generateProductSchema } from '@/lib/schema';
-
-export const dynamic = 'force-dynamic';
+import { getProductsByTag } from '@/lib/shopify';
 
 export default async function ProductPage({ params }: { params: { handle: string } }) {
   const product = await getProductByHandle(params.handle);
@@ -39,7 +37,10 @@ export default async function ProductPage({ params }: { params: { handle: string
     { quote: 'These decals survived 3 Canadian winters without fading. Legit craftsmanship.', author: 'Darnell M. from St. Catharines' },
     { quote: 'Super easy to order and the print quality is insane.', author: 'Jessie R.' },
   ];
-  const relatedProducts: TaggedProduct[] = [];
+  const primaryTag = product.tags[0] || '';
+  const related = (await getProductsByTag(primaryTag))
+    .filter(p => p.handle !== product.handle)
+    .slice(0, 4);
 
   return (
     <main className="min-h-screen bg-[url('/grunge-texture.png')] bg-cover bg-fixed bg-black/95 py-10 px-2">
@@ -63,7 +64,7 @@ export default async function ProductPage({ params }: { params: { handle: string
         </div>
       </div>
       <Testimonials testimonials={testimonials} />
-      <RelatedProducts products={relatedProducts} />
+      <RelatedCarousel products={related} />
     </main>
   );
 }

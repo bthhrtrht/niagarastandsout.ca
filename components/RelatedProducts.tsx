@@ -35,7 +35,7 @@ export default function RelatedProducts({ products }: Props) {
           >
             <div className="relative w-full aspect-square mb-2">
               <Image
-                src={p.image || ICONS.default}
+                src={p.image || ICONS.default.title}
                 alt={ICON_ALTS[p.handle] || p.title || p.handle.replace(/-/g, ' ')}
                 fill
                 className="object-cover rounded"

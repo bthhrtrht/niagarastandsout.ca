@@ -6,7 +6,7 @@ export default function ProductGrid({ products }: { products: any[] }) {
   return (
     <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '2rem', padding: 0 }}>
       {products.map(p => {
-        const meta = IMAGE_META[p.handle] || {};
+        const meta = (IMAGE_META as Record<string, { title?: string; caption?: string; hover?: string }>)[p.handle] || {};
         return (
           <li key={p.handle} style={{ border: '1px solid #ccc', padding: '1rem', listStyle: 'none' }}>
             <a href={`/products/${p.handle}`}>

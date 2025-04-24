@@ -27,7 +27,7 @@ export default function HomepageMenu({ collections }: Props) {
           >
             <div className="w-20 h-20 mb-3 relative">
               {(() => {
-                const meta = IMAGE_META[col.handle] || {};
+                const meta = (IMAGE_META as Record<string, { title?: string; caption?: string; hover?: string }>)[col.handle] || {};
                 return (
                   <Image
                     src={getImageForSlug(col.handle, 'collection')}

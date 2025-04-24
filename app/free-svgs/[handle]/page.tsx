@@ -10,7 +10,6 @@ interface Params {
 
 export function generateStaticParams() {
   return (freeSvgs as FreeSvgEntry[]).map((p) => ({ handle: p.handle }));
-<h1>[Handle] SVG Collection</h1>
 }
 
 export async function generateMetadata({ params: { handle } }: Params): Promise<Metadata> {

@@ -52,9 +52,9 @@ export default function LandingPageClient({ collection, products, jsonLd }: Prop
             asSeenOn={
               <AsSeenOn
                 logos={[
-                  { src: ICONS['etsy'], alt: 'Etsy' },
-                  { src: ICONS['facebook'], alt: 'Facebook Marketplace' },
-                  { src: ICONS['niagara-this-week'], alt: 'Niagara This Week' },
+                  { src: ICONS['etsy']?.title || ICONS.default.title, alt: 'Etsy' },
+                  { src: ICONS['facebook']?.title || ICONS.default.title, alt: 'Facebook Marketplace' },
+                  { src: ICONS['niagara-this-week']?.title || ICONS.default.title, alt: 'Niagara This Week' },
                 ]}
               />
             }

@@ -9,6 +9,55 @@ interface Product {
   image: string;
 }
 
+export interface Collection {
+  title: string;
+  handle: string;
+  description: string;
+  image?: string;
+}
+
+export async function getCollectionByHandle(handle: string): Promise<Collection | null> {
+  const query = `
+    query CollectionByHandle($handle: String!) {
+      collectionByHandle(handle: $handle) {
+        title
+        handle
+        description
+        image {
+          src
+        }
+      }
+    }
+  `;
+
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Shopify-Storefront-Access-Token": SHOPIFY_TOKEN,
+      },
+      body: JSON.stringify({ query, variables: { handle } }),
+      next: { revalidate: 60 },
+    });
+
+    const raw = await res.text();
+    const json = JSON.parse(raw);
+
+    const col = json.data?.collectionByHandle;
+    if (!col) return null;
+    return {
+      title: col.title,
+      handle: col.handle,
+      description: col.description,
+      image: col.image?.src || undefined,
+    };
+  } catch (e) {
+    console.error("Error fetching collection by handle:", e);
+    return null;
+  }
+}
+
 export async function getCollectionProducts(handle: string): Promise<Product[]> {
   const query = `
     query ProductsByCollection($handle: String!) {

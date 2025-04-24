@@ -31,7 +31,7 @@ export default function TrustIcons({ icons = DEFAULT_ICONS }: Props) {
         <div key={idx} className="flex flex-col items-center text-center">
           <div className="relative w-12 h-12 mb-2">
             <Image
-              src={ICONS[icon.slug] || ICONS.default}
+              src={ICONS[icon.slug]?.title || ICONS.default.title}
               alt={ICON_ALTS[icon.slug] || icon.alt || icon.slug.replace(/-/g, ' ')}
               fill
               className="object-contain"

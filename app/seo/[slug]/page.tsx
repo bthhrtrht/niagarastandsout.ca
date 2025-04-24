@@ -4,15 +4,13 @@ import { notFound } from 'next/navigation';
 import seoPages from '@/data/seo-pages.json';
 import { getProductsByTag } from '@/lib/shopify';
 import ProductGrid from '@/components/ProductGrid';
-import CTA from '@/components/CTA';
 import Testimonial from '@/components/Testimonial';
 import { getImageForSlug } from '@/lib/assets';
 import { ICON_ALTS } from '@/lib/assetsAlt';
-import dynamic from 'next/dynamic';
-const ABTest = dynamic(() => import('@/components/ABTest'), { ssr: false });
+import SeoABTestWrapper from '@/components/SeoABTestWrapper';
 import AccordionTabs from '@/components/AccordionTabs';
 
-export const revalidate = 60 * 60 * 24 * 30; // revalidate pages every 30 days
+export const revalidate = 2592000; // revalidate pages every 30 days
 
 // Pre-render all SEO page slugs at build time
 export async function generateStaticParams() {
@@ -64,15 +62,12 @@ export default async function SeoPage({ params: { slug } }: { params: { slug: st
         <p className="mt-2 text-lg">{page.subtitle}</p>
       </section>
 
-      <ABTest slug={slug}>
-        {() => (
-          <CTA
-            title={page.cta}
-            subtitle={page.subtitle}
-            button={{ text: page.cta, link: `/collections/${page.productTag}` }}
-          />
-        )}
-      </ABTest>
+      <SeoABTestWrapper
+        slug={slug}
+        cta={page.cta}
+        subtitle={page.subtitle}
+        productTag={page.productTag}
+      />
 
       <div
         className="prose max-w-none mt-8"
