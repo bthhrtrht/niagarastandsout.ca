@@ -6,6 +6,7 @@ import seoPages from '@/data/seo-pages.json';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [status, setStatus] = useState<'idle'|'success'|'error'>('idle');
   return (
     <footer className="bg-black border-t border-neutral-800 text-gray-300 py-12 px-4 mt-12">

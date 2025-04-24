@@ -1,0 +1,13 @@
+{
+  "blog_post": {
+    "title": "Personalized Thank You Cards: Small Touch, Big Impact",
+    "seo_title": "Personalized Thank You Cards for Shopify: Boost Loyalty",
+    "meta_description": "Discover how personalized thank you cards can increase customer loyalty and repeat sales for your Shopify store.",
+    "content": "### Personalized Thank You Cards: Small Touch, Big Impact\n\n#### TL;DR (Summary)\nAdding a handwritten thank you card to Shopify orders creates memorable experiences and encourages repeat business.\n\n---\n\n#### Quick Tips for Thank You Cards\n- Use your customer’s name\n- Mention the product purchased\n- Add a discount code for next time\n- Keep the message genuine and brief\n\n---\n\n#### Why Send Thank You Cards?\nThank you cards show you care, differentiate your brand, and drive loyalty.\n\n---\n\n#### Internal Linking Example\nLooking for more ways to wow customers?  \n[Read our guide to custom packaging for Shopify](#).\n\n---\n\n#### Call to Action\nReady to make customers feel special?  \n**Start adding thank you cards to every order!**  \n[Contact us for custom card designs](#)\n\n---\n\n#### Frequently Asked Questions (FAQ)\n\n**Q: Do thank you cards really increase repeat sales?**\nA: Yes! Customers appreciate the personal touch and are more likely to order again.\n\n**Q: What should I write in a thank you card?**\nA: Keep it brief, personal, and brand-aligned.\n\n**Q: Can I automate thank you cards?**\nA: Yes, but handwritten or unique messages work best.\n",
+    "image_suggestion": {
+      "url": "https://unsplash.com/photos/1K8pIbIrhkQ",
+      "alt_text": "Personalized thank you cards for Shopify orders"
+    }
+  },
+  "faq_schema": "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Do thank you cards really increase repeat sales?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes! Customers appreciate the personal touch and are more likely to order again.\"}},{\"@type\":\"Question\",\"name\":\"What should I write in a thank you card?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Keep it brief, personal, and brand-aligned.\"}},{\"@type\":\"Question\",\"name\":\"Can I automate thank you cards?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, but handwritten or unique messages work best.\"}}]}"
+}

@@ -1,7 +1,5 @@
-import fs from 'fs';
-import path from 'path';
-import Link from 'next/link';
 import seoPages from '@/data/seo-pages.json';
+import Link from 'next/link';
 
 interface BlogPost { title: string; slug: string; }
 interface SeoPage { slug: string; title: string; }
@@ -19,27 +17,8 @@ export default function MegaFooter() {
     .filter(p => p.slug.startsWith('compare-'))
     .slice(0, 5);
 
-  // Latest 5 blog posts
-  const blogDir = path.join(process.cwd(), 'Blog-Post');
-  const blogFiles = fs
-    .readdirSync(blogDir)
-    .filter(f => f.endsWith('.json'))
-    .sort()
-    .reverse()
-    .slice(0, 5);
-  const blogPosts: BlogPost[] = blogFiles.map(file => {
-    let data;
-    try {
-      data = JSON.parse(
-        fs.readFileSync(path.join(blogDir, file), 'utf-8')
-      );
-    } catch (e) {
-      console.error(`Invalid JSON in ${file}:`, e);
-      return { title: 'Invalid Post', slug: file.replace('.json', '') };
-    }
-    const slug = file.replace('.json', '');
-    return { title: data.blog_post.title, slug };
-  });
+  // Stub blog posts until FS logic is server-only
+  const blogPosts: BlogPost[] = [];
 
   const accountLinks = [
     { label: 'Account / Login', href: '/account/login' },

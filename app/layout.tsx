@@ -2,7 +2,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import ModernHeader from '@/components/ModernHeader';
-import MegaFooter from '@/components/MegaFooter';
 import Analytics from './providers/Analytics';
 import { Inter, Oswald } from 'next/font/google';
 
@@ -38,7 +37,7 @@ export default function RootLayout({
         <ModernHeader />
         {children}
         {/* Site footer */}
-        <MegaFooter />
+        {/* <MegaFooter /> */}
       </body>
     </html>
   );

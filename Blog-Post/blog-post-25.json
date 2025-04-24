@@ -1,0 +1,13 @@
+{
+  "blog_post": {
+    "title": "How to Turn Customer Photos into Powerful Shopify Marketing",
+    "seo_title": "User-Generated Content for Shopify: Boost Sales with Customer Photos",
+    "meta_description": "Learn how to use customer photos and user-generated content to increase trust and drive sales on your Shopify store.",
+    "content": "### How to Turn Customer Photos into Powerful Shopify Marketing\n\n#### TL;DR (Summary)\nEncouraging customers to share photos with your products builds trust and inspires new buyers on Shopify.\n\n---\n\n#### Quick Tips for User-Generated Content\n- Run photo contests with prizes\n- Feature customer images on product pages\n- Create a branded hashtag\n- Always ask permission before sharing\n\n---\n\n#### Why Use Customer Photos?\nThey provide social proof, boost engagement, and create authentic marketing.\n\n---\n\n#### Internal Linking Example\nWant more ways to build trust?  \n[Read our guide to customer reviews for Shopify](#).\n\n---\n\n#### Call to Action\nReady to inspire your audience?  \n**Start featuring customer photos and grow your Shopify sales!**  \n[Contact us for UGC campaign ideas](#)\n\n---\n\n#### Frequently Asked Questions (FAQ)\n\n**Q: How do I get customers to share photos?**\nA: Offer incentives, run contests, and make it easy with clear instructions.\n\n**Q: Can I use customer photos in ads?**\nA: Yes, but always get written permission first.\n\n**Q: What if I don’t have many customer photos?**\nA: Start small—feature the best ones and encourage more over time.\n",
+    "image_suggestion": {
+      "url": "https://unsplash.com/photos/3MtiSMdnoCo",
+      "alt_text": "Shopify customers sharing product photos online"
+    }
+  },
+  "faq_schema": "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How do I get customers to share photos?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Offer incentives, run contests, and make it easy with clear instructions.\"}},{\"@type\":\"Question\",\"name\":\"Can I use customer photos in ads?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, but always get written permission first.\"}},{\"@type\":\"Question\",\"name\":\"What if I don’t have many customer photos?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Start small—feature the best ones and encourage more over time.\"}}]}"
+}

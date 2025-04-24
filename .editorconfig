@@ -1,0 +1,58 @@
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+
+IndentCaseLabels: false
+IndentCaseBlocks: true
+IndentGotoLabels: Left
+IndentPPDirectives: None
+AccessModifierOffset: -4
+
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+BreakBeforeBraces: Custom
+BreakBeforeCatch: true
+BreakBeforeElse: true
+BreakBeforeWhile: false
+BreakConstructorInitializersBeforeComma: false
+BreakConstructorInitializers: BeforeColon
+
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: true
+SpacesInParentheses: false
+SpaceAfterCStyleCast: false
+SpaceBeforeSquareBrackets: false
+SpacesInSquareBrackets: false
+SpaceBeforeAssignmentOperators: true
+PointerAlignment: Left
+SpaceBeforeCpp11BracedList: false
+
+AlignOperands: true
+AlignTrailingComments: true
+
+BinPackParameters: false
+BinPackArguments: false
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+SortIncludes: false
+ReflowComments: false
+FixNamespaceComments: false

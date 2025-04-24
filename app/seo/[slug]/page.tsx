@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import seoPages from '@/data/seo-pages.json';
 import { getProductsByTag } from '@/lib/shopify';
 import ProductGrid from '@/components/ProductGrid';
@@ -7,21 +8,22 @@ import CTA from '@/components/CTA';
 import Testimonial from '@/components/Testimonial';
 import { getImageForSlug } from '@/lib/assets';
 import { ICON_ALTS } from '@/lib/assetsAlt';
-import ABTest from '@/components/ABTest';
+import dynamic from 'next/dynamic';
+const ABTest = dynamic(() => import('@/components/ABTest'), { ssr: false });
 import AccordionTabs from '@/components/AccordionTabs';
 
 export const revalidate = 60 * 60 * 24 * 30; // revalidate pages every 30 days
 
 // Pre-render all SEO page slugs at build time
 export async function generateStaticParams() {
-  return seoPages
-    .filter(p => p.slug.startsWith('compare-'))
-    .map(p => ({ slug: p.slug }));
+  return seoPages.map(p => ({ slug: p.slug }));
 }
 
 export default async function SeoPage({ params: { slug } }: { params: { slug: string } }) {
   const page = seoPages.find(p => p.slug === slug);
-  if (!page) return <div>Page not found</div>;
+  if (!page) {
+    notFound();
+  }
 
   const products = await getProductsByTag(page.productTag);
 
@@ -39,6 +41,7 @@ export default async function SeoPage({ params: { slug } }: { params: { slug: st
       <Head>
         <title>{page.title}</title>
         <meta name="description" content={page.seo.description} />
+        <link rel="canonical" href={`https://niagarastandsout.ca/seo/${slug}`} />
       </Head>
       <script
         type="application/ld+json"
@@ -62,7 +65,7 @@ export default async function SeoPage({ params: { slug } }: { params: { slug: st
       </section>
 
       <ABTest slug={slug}>
-        {variant => (
+        {() => (
           <CTA
             title={page.cta}
             subtitle={page.subtitle}

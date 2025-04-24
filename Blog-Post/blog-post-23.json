@@ -1,0 +1,13 @@
+{
+  "blog_post": {
+    "title": "How to Use QR Codes on Print Materials to Drive Shopify Sales",
+    "seo_title": "QR Codes for Shopify: Boost Sales with Smart Print Marketing",
+    "meta_description": "Learn how to use QR codes on print materials to increase traffic and sales for your Shopify store.",
+    "content": "### How to Use QR Codes on Print Materials to Drive Shopify Sales\n\n#### TL;DR (Summary)\nAdding QR codes to business cards, flyers, and packaging makes it easy for customers to visit your Shopify store instantly.\n\n---\n\n#### Quick Tips for QR Code Success\n- Link directly to product pages or discounts\n- Test codes before printing\n- Use a clear call-to-action near the code\n- Track scans with analytics\n\n---\n\n#### Why Use QR Codes?\nQR codes bridge offline and online shopping, making it effortless for customers to buy.\n\n---\n\n#### Internal Linking Example\nWant more print marketing hacks?  \n[Read our guide to business cards for Shopify](#).\n\n---\n\n#### Call to Action\nReady to connect print and digital?  \n**Add QR codes to your print materials and watch your Shopify sales grow!**  \n[Contact us for custom QR designs](#)\n\n---\n\n#### Frequently Asked Questions (FAQ)\n\n**Q: What can I link to with a QR code?**\nA: Product pages, discount codes, social media, or your Shopify homepage.\n\n**Q: Do customers use QR codes?**\nA: Yes! QR usage is rising, especially with mobile shoppers.\n\n**Q: How do I make a QR code?**\nA: Use free online QR generators and test before printing.\n",
+    "image_suggestion": {
+      "url": "https://unsplash.com/photos/4HG3Ca3EzWw",
+      "alt_text": "QR code on a business card for Shopify marketing"
+    }
+  },
+  "faq_schema": "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What can I link to with a QR code?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Product pages, discount codes, social media, or your Shopify homepage.\"}},{\"@type\":\"Question\",\"name\":\"Do customers use QR codes?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes! QR usage is rising, especially with mobile shoppers.\"}},{\"@type\":\"Question\",\"name\":\"How do I make a QR code?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Use free online QR generators and test before printing.\"}}]}"
+}
