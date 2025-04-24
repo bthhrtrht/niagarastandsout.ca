@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-const fs = require('fs');
-const path = require('path');
-const { URL } = require('url');
+import fs from 'fs';
+import path from 'path';
+import { URL } from 'url';
 
 // Paths
 const base = process.cwd();

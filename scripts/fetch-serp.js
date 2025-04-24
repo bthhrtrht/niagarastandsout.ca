@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-require('dotenv').config();
-const fs = require('fs');
-const SerpApi = require('google-search-results-nodejs').GoogleSearch;
+import dotenv from 'dotenv';
+dotenv.config();
+import fs from 'fs';
+import { GoogleSearch as SerpApi } from 'google-search-results-nodejs';
 
 const client = new SerpApi(process.env.SERPAPI_KEY);
 const keywords = [
