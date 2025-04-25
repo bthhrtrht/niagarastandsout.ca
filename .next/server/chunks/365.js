@@ -106,12 +106,12 @@ exports.id=365,exports.ids=[365],exports.modules={6345:(e,t,a)=>{Promise.resolve
             node {
               handle
               title
-              images(first: 1) {
-                edges { node { originalSrc } }
-              }
+              images(first: 1) { edges { node { originalSrc } } }
+              availableForSale
+              variants(first: 1) { edges { node { price { amount currencyCode } } } }
             }
           }
         }
       }
     }
-  `;try{let a=await fetch(f,{method:"POST",headers:{"Content-Type":"application/json","X-Shopify-Storefront-Access-Token":m},body:JSON.stringify({query:t,variables:{limit:e}}),next:{revalidate:60}}),r=await a.json();return(r.data?.collection?.products?.edges||[]).map(e=>({handle:e.node.handle,title:e.node.title,image:e.node.images.edges[0]?.node.originalSrc||"https://niagarastandsout.ca/cdn/shop/files/default-hero.jpg"}))}catch(e){return console.error("Error in getFrontpageProducts:",e),[]}}},7272:()=>{}};
+  `;try{let a=await fetch(f,{method:"POST",headers:{"Content-Type":"application/json","X-Shopify-Storefront-Access-Token":m},body:JSON.stringify({query:t,variables:{limit:e}}),next:{revalidate:60}}),r=await a.json();return(r.data?.collection?.products?.edges||[]).map(e=>{let t=e.node.variants.edges[0]?.node;return{handle:e.node.handle,title:e.node.title,image:e.node.images.edges[0]?.node.originalSrc||"https://niagarastandsout.ca/cdn/shop/files/default-hero.jpg",price:t?.price?{amount:t.price.amount,currency:t.price.currencyCode}:void 0,available:e.node.availableForSale}})}catch(e){return console.error("Error in getFrontpageProducts:",e),[]}}},7272:()=>{}};

@@ -46,6 +46,8 @@ export interface TaggedProduct {
   handle: string;
   title: string;
   image: string;
+  price?: { amount: string; currency: string };
+  available?: boolean;
 }
 
 // ───── Fetch Single Product by Handle ─────
@@ -172,9 +174,9 @@ export async function getFrontpageProducts(limit = 12): Promise<TaggedProduct[]>
             node {
               handle
               title
-              images(first: 1) {
-                edges { node { originalSrc } }
-              }
+              images(first: 1) { edges { node { originalSrc } } }
+              availableForSale
+              variants(first: 1) { edges { node { price { amount currencyCode } } } }
             }
           }
         }
@@ -193,11 +195,20 @@ export async function getFrontpageProducts(limit = 12): Promise<TaggedProduct[]>
     });
     const json = await res.json();
     const edges = json.data?.collection?.products?.edges || [];
-    return edges.map((edge: any) => ({
-      handle: edge.node.handle,
-      title: edge.node.title,
-      image: edge.node.images.edges[0]?.node.originalSrc || "https://niagarastandsout.ca/cdn/shop/files/default-hero.jpg",
-    }));
+    return edges.map((edge: any) => {
+      const variant = edge.node.variants.edges[0]?.node;
+      return {
+        handle: edge.node.handle,
+        title: edge.node.title,
+        image:
+          edge.node.images.edges[0]?.node.originalSrc ||
+          "https://niagarastandsout.ca/cdn/shop/files/default-hero.jpg",
+        price: variant?.price
+          ? { amount: variant.price.amount, currency: variant.price.currencyCode }
+          : undefined,
+        available: edge.node.availableForSale,
+      };
+    });
   } catch (e) {
     console.error(`Error in getFrontpageProducts:`, e);
     return [];

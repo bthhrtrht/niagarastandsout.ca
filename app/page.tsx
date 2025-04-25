@@ -7,7 +7,11 @@ import Image from 'next/image';
 import { getAllCollections, getFrontpageProducts } from '@/lib/shopify';
 import AsSeenOn from '@/components/AsSeenOn';
 import ProductGrid from '@/components/ProductGrid';
-import RelatedCarousel from '@/components/RelatedCarousel';
+import featured from '@/public/metaobjects.json';
+
+// Typed featured work items
+type FeaturedMeta = { slug: string; icon: string; alt: string; title: string; description: string; };
+const featuredList = featured as FeaturedMeta[];
 
 export const dynamic = 'force-static';
 
@@ -20,19 +24,13 @@ export default async function HomePage() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preload" href="/_next/static/css/app/page.css" as="style" />
         <link rel="preconnect" href="https://cdn.shopify.com" />
         <link rel="preload" href="/hero-wrap.jpg" as="image" />
         <link rel="canonical" href="https://shopify-headless-complete.vercel.app/" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          itemListElement: [{"@type":"ListItem",position:1,name:"Home",item:"https://shopify-headless-complete.vercel.app/"}]
-        })}} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "ItemList",
-          itemListElement: products.map((p, i) => ({"@type":"ListItem",position:i+1,url:`https://shopify-headless-complete.vercel.app/products/${p.handle}`}))
-        })}} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","itemListElement":products.map((p,i)=>(
+          {"@type":"ListItem","position":i+1,"item":{"@type":"Product","name":p.title,"image":p.image,"url":`https://shopify-headless-complete.vercel.app/products/${p.handle}`,"offers":{"@type":"Offer","price":p.price?.amount,"priceCurrency":p.price?.currency,"availability":p.available?"https://schema.org/InStock":"https://schema.org/OutOfStock"}}}
+        ))})}} />
       </Head>
       <main className="font-main">
         {/* Hero */}
@@ -61,7 +59,7 @@ export default async function HomePage() {
         <section id="product-gallery" aria-labelledby="product-families-title" className="py-12 container mx-auto px-4">
           <h2 id="product-families-title" className="text-3xl font-semibold mb-8 text-center">Our Product Families</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
-            {collections.map(c => (
+            {collections.slice(0, 6).map(c => (
               <Link key={c.handle} href={`/collections/${c.handle}`} className="group block overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition">
                 <div className="relative w-full h-36">
                   <Image src={c.image || '/placeholder.jpg'} alt={c.title} fill className="object-cover group-hover:scale-110 transition" />
@@ -84,16 +82,27 @@ export default async function HomePage() {
         <section aria-labelledby="configurator-title" className="py-12 bg-gray-50">
           <div className="container mx-auto px-4 text-center">
             <h2 id="configurator-title" className="text-3xl font-semibold mb-4">Design in 3 Clicks</h2>
-            <Image src="/configurator.gif" alt="Configurator Teaser" width={800} height={450} className="mx-auto rounded-lg shadow-lg" />
+            <video autoPlay loop muted playsInline className="mx-auto rounded-lg shadow-lg" width={800} height={450}>
+              <source src="/teasers/designer.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <Link href="/configurator" className="inline-block mt-6 px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg shadow hover:bg-yellow-300 transition">Start Designing</Link>
           </div>
         </section>
 
-        {/* Featured Products Carousel */}
+        {/* Featured Work Gallery */}
         <section aria-labelledby="featured-work-title" className="py-12 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 id="featured-work-title" className="text-3xl font-semibold mb-8 text-center">Featured Products Carousel</h2>
-            <RelatedCarousel products={products} />
+          <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <h2 id="featured-work-title" className="text-3xl font-semibold mb-8 text-center col-span-full">Featured Work</h2>
+            {featuredList.map(item => (
+              <div key={item.slug} className="rounded-lg overflow-hidden shadow-lg">
+                <Image src={item.icon} alt={item.alt} width={400} height={300} className="object-cover" loading="lazy" />
+                <div className="p-4">
+                  <h3 className="font-semibold">{item.title}</h3>
+                  <p className="mt-2 text-sm">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -113,6 +122,7 @@ export default async function HomePage() {
           </div>
         </section>
 
+        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the turnaround time?","acceptedAnswer":{"@type":"Answer","text":"We ship within 48 hours using eco-solvent inks and durable vinyl."}},{"@type":"Question","name":"Are the decals weather resistant?","acceptedAnswer":{"@type":"Answer","text":"Yes, all prints are waterproof and UV-resistant for outdoor use."}}]})}} />
         {/* Free SVG Funnel */}
         <section aria-labelledby="free-svg-title" className="py-12 bg-white">
           <div className="container mx-auto px-4 text-center">
