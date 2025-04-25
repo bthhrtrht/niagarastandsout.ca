@@ -1,13 +1,11 @@
 import { notFound } from 'next/navigation';
 import { getCollectionByHandle, getAllCollections } from '@/lib/shopify';
-import dynamic from 'next/dynamic';
+import dynamicComponent from 'next/dynamic';
 // Load DesignPageClient as client component only (disable SSR) to prevent window references on server
-const DesignPageClient = dynamic(() => import('@/components/DesignPageClient'), { ssr: false });
+const DesignPageClient = dynamicComponent(() => import('@/components/DesignPageClient'), { ssr: false });
 
-export async function generateStaticParams() {
-  const collections = await getAllCollections();
-  return collections.map(col => ({ slug: col.handle }));
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function DesignPage({ params: { slug } }: { params: { slug: string } }) {
   const collection = await getCollectionByHandle(slug);

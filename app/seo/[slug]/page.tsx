@@ -12,13 +12,8 @@ import AccordionTabs from '@/components/AccordionTabs';
 import { Input } from '@/components/ui/Input';
 import { Textarea } from '@/components/ui/Textarea';
 
-export const revalidate = 2592000; // revalidate pages every 30 days
-export const dynamic = 'force-static'; // static generate SEO pages
-
-// Pre-render all SEO page slugs at build time
-export async function generateStaticParams() {
-  return seoPages.map(p => ({ slug: p.slug }));
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function SeoPage({ params: { slug } }: { params: { slug: string } }) {
   // Load page data from static JSON, fallback 404
