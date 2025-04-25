@@ -3,3 +3,4 @@ node_modules
 # Vercel: ignore all in .vercel but allow project.json
 /.vercel/*
 !/.vercel/project.json
+.vercel

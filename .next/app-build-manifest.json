@@ -55,12 +55,12 @@
       "static/chunks/972-0e0905e13ace75da.js",
       "static/chunks/app/seo/page-04689a656f4bed31.js"
     ],
-    "/custom-decal-designer/page": [
+    "/design/[slug]/page": [
       "static/chunks/webpack-039b1e6c393f1be3.js",
       "static/chunks/fd9d1056-b46e5db4d287a221.js",
       "static/chunks/117-1fa0d2ff58605033.js",
       "static/chunks/main-app-97c1907ebb749975.js",
-      "static/chunks/app/custom-decal-designer/page-f89f9f1a02636437.js"
+      "static/chunks/app/design/[slug]/page-a25c6b78a04b5daa.js"
     ],
     "/collections/[slug]/page": [
       "static/chunks/webpack-039b1e6c393f1be3.js",
@@ -71,13 +71,6 @@
       "static/chunks/878-3f10a4387ed85693.js",
       "static/chunks/902-25b17b6239e0150e.js",
       "static/chunks/app/collections/[slug]/page-617be03b7696e0b8.js"
-    ],
-    "/design/[slug]/page": [
-      "static/chunks/webpack-039b1e6c393f1be3.js",
-      "static/chunks/fd9d1056-b46e5db4d287a221.js",
-      "static/chunks/117-1fa0d2ff58605033.js",
-      "static/chunks/main-app-97c1907ebb749975.js",
-      "static/chunks/app/design/[slug]/page-a25c6b78a04b5daa.js"
     ],
     "/credits/page": [
       "static/chunks/webpack-039b1e6c393f1be3.js",
@@ -92,7 +85,7 @@
       "static/chunks/117-1fa0d2ff58605033.js",
       "static/chunks/main-app-97c1907ebb749975.js",
       "static/chunks/544-2dff5a110aee4bc3.js",
-      "static/chunks/app/free-svg-pack/page-0b06c599af2607b6.js"
+      "static/chunks/app/free-svg-pack/page-98a33d74ee61febd.js"
     ],
     "/free-svg-pack/thank-you/page": [
       "static/chunks/webpack-039b1e6c393f1be3.js",
@@ -102,6 +95,13 @@
       "static/chunks/972-0e0905e13ace75da.js",
       "static/chunks/544-2dff5a110aee4bc3.js",
       "static/chunks/app/free-svg-pack/thank-you/page-de048f8039abe911.js"
+    ],
+    "/custom-decal-designer/page": [
+      "static/chunks/webpack-039b1e6c393f1be3.js",
+      "static/chunks/fd9d1056-b46e5db4d287a221.js",
+      "static/chunks/117-1fa0d2ff58605033.js",
+      "static/chunks/main-app-97c1907ebb749975.js",
+      "static/chunks/app/custom-decal-designer/page-f89f9f1a02636437.js"
     ],
     "/free-svgs/[handle]/page": [
       "static/chunks/webpack-039b1e6c393f1be3.js",
@@ -118,7 +118,7 @@
       "static/chunks/117-1fa0d2ff58605033.js",
       "static/chunks/main-app-97c1907ebb749975.js",
       "static/chunks/878-3f10a4387ed85693.js",
-      "static/chunks/app/products/[handle]/page-935e585a3fe7b90e.js"
+      "static/chunks/app/products/[handle]/page-63188059f33131fe.js"
     ],
     "/tools/ai-decal-generator/page": [
       "static/chunks/webpack-039b1e6c393f1be3.js",
