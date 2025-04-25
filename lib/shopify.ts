@@ -245,23 +245,20 @@ const PRODUCTS_PAGE = gql`
 `;
 
 export async function fetchAllProducts(): Promise<AllProduct[]> {
-  const all: AllProduct[] = [];
+  let products: AllProduct[] = [];
   let hasNextPage = true;
   let cursor: string | null = null;
 
   while (hasNextPage) {
-    const { products } = await gqlClient.request<{
-      products: {
-        pageInfo: { hasNextPage: boolean; endCursor: string | null };
-        edges: { node: AllProduct }[];
-      };
-    }>(PRODUCTS_PAGE, { first: 250, after: cursor });
-    products.edges.forEach((edge: any) => all.push(edge.node));
-    hasNextPage = products.pageInfo.hasNextPage;
-    cursor = products.pageInfo.endCursor;
+    const response: { products: { pageInfo: { hasNextPage: boolean; endCursor: string | null }; edges: { node: AllProduct }[] } } =
+      await gqlClient.request(PRODUCTS_PAGE, { first: 250, after: cursor });
+    const items = response.products.edges.map((edge: { node: AllProduct }) => edge.node);
+    products = products.concat(items);
+    hasNextPage = response.products.pageInfo.hasNextPage;
+    cursor = response.products.pageInfo.endCursor;
   }
 
-  return all;
+  return products;
 }
 
 // Re-export collection utilities for imports from '@/lib/shopify'
