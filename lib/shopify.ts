@@ -3,9 +3,11 @@ import { gql, GraphQLClient } from 'graphql-request';
 
 dotenv.config();
 
-const SHOPIFY_DOMAIN = process.env.SHOPIFY_STORE_DOMAIN || "";
+const SHOPIFY_DOMAIN = process.env.SHOPIFY_STORE_DOMAIN || process.env.SHOP_DOMAIN || "";
 const SHOPIFY_TOKEN = process.env.SHOPIFY_STOREFRONT_API_TOKEN || "";
-const endpoint = `https://${SHOPIFY_DOMAIN}/api/2024-04/graphql.json`;
+// Derive API version from env or default
+const SHOPIFY_API_VERSION = process.env.SHOPIFY_API_VERSION || '2024-04';
+const endpoint = `https://${SHOPIFY_DOMAIN}/api/${SHOPIFY_API_VERSION}/graphql.json`;
 
 const gqlClient = new GraphQLClient(endpoint, {
   headers: { 'X-Shopify-Storefront-Access-Token': SHOPIFY_TOKEN },

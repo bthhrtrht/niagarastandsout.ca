@@ -19,8 +19,8 @@ async function logAbEvent(slug: string, variant: string, eventType: string) {
   } catch (e: any) {
     console.error('Write error:', e);
   }
-  const measurementId = process.env.GA_MEASUREMENT_ID;
-  const apiSecret = process.env.GA_API_SECRET;
+  const measurementId = process.env.GA4_MEASUREMENT_ID;
+  const apiSecret = process.env.GA4_API_SECRET;
   if (measurementId && apiSecret) {
     const sendToGA4 = async (attempt = 1) => {
       try {
@@ -30,7 +30,7 @@ async function logAbEvent(slug: string, variant: string, eventType: string) {
           {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ client_id: clientId, events: [{ name: 'ab_event', params: { slug, variant, eventType } }] })
+            body: JSON.stringify({ client_id: clientId, events: [{ name: 'ab_event', params: { slug, variant, event_type: eventType } }] })
           }
         );
         if (!response.ok) {

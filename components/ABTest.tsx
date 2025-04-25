@@ -20,7 +20,7 @@ export default function ABTest({ slug, children }: ABTestProps) {
       fetch('/api/ab-event', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ slug, event: 'assign', variant: v }),
+        body: JSON.stringify({ slug, variant: v, eventType: 'assign' }),
       });
     }
     setVariant(v);

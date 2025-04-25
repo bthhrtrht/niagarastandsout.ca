@@ -17,13 +17,18 @@ export default function ProductDetailClient({ product }: Props) {
     // TODO: redirect to checkout, e.g. window.location.href = '/checkout';
   };
 
+  // Safely get the first image or fallback
+  const firstImage = product.images?.edges?.[0]?.node;
+  const src = firstImage?.originalSrc ?? '/placeholder.jpg';
+  const alt = firstImage?.altText ?? product.title;
+
   return (
     <div className="max-w-4xl mx-auto py-8">
       <h1 className="text-3xl font-bold mb-4">{product.title}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Image
-          src={product.images.edges[0].node.originalSrc}
-          alt={product.images.edges[0].node.altText ?? product.title}
+          src={src}
+          alt={alt}
           width={600}
           height={600}
           priority
