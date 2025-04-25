@@ -7,6 +7,7 @@ import Testimonials from '@/components/Testimonials';
 import RelatedCarousel from '@/components/RelatedCarousel';
 import { generateProductSchema } from '@/lib/schema';
 import { getProductsByTag } from '@/lib/shopify';
+import { fetchAllProducts } from '@/lib/shopify';
 
 export default async function ProductPage({ params }: { params: { handle: string } }) {
   const product = await getProductByHandle(params.handle);
@@ -67,4 +68,10 @@ export default async function ProductPage({ params }: { params: { handle: string
       <RelatedCarousel products={related} />
     </main>
   );
+}
+
+// Pre-render every product page
+export async function generateStaticParams() {
+  const allProducts = await fetchAllProducts();
+  return allProducts.map(p => ({ handle: p.handle }));
 }

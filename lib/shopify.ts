@@ -50,6 +50,13 @@ export interface TaggedProduct {
   available?: boolean;
 }
 
+export interface AllProduct {
+  handle: string;
+  title: string;
+  priceRange: { minVariantPrice: { amount: string; currencyCode: string } };
+  images: { edges: { node: { url: string; altText: string | null } }[] };
+}
+
 // ───── Fetch Single Product by Handle ─────
 
 export async function getProductByHandle(handle: string): Promise<Product | null> {
@@ -213,6 +220,48 @@ export async function getFrontpageProducts(limit = 12): Promise<TaggedProduct[]>
     console.error(`Error in getFrontpageProducts:`, e);
     return [];
   }
+}
+
+import { gql, GraphQLClient } from 'graphql-request';
+
+const gqlClient = new GraphQLClient(endpoint, {
+  headers: { 'X-Shopify-Storefront-Access-Token': SHOPIFY_TOKEN }
+});
+
+const PRODUCTS_PAGE = gql`
+  query AllProducts($first: Int!, $after: String) {
+    products(first: $first, after: $after) {
+      pageInfo { hasNextPage endCursor }
+      edges {
+        node {
+          handle
+          title
+          priceRange { minVariantPrice { amount currencyCode } }
+          images(first: 10) { edges { node { url altText } } }
+        }
+      }
+    }
+  }
+`;
+
+export async function fetchAllProducts(): Promise<AllProduct[]> {
+  const all: AllProduct[] = [];
+  let hasNextPage = true;
+  let cursor: string | null = null;
+
+  while (hasNextPage) {
+    const { products } = await gqlClient.request<{
+      products: {
+        pageInfo: { hasNextPage: boolean; endCursor: string | null };
+        edges: { node: AllProduct }[];
+      };
+    }>(PRODUCTS_PAGE, { first: 250, after: cursor });
+    products.edges.forEach((edge: any) => all.push(edge.node));
+    hasNextPage = products.pageInfo.hasNextPage;
+    cursor = products.pageInfo.endCursor;
+  }
+
+  return all;
 }
 
 // Re-export collection utilities for imports from '@/lib/shopify'
