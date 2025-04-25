@@ -1,0 +1,5 @@
+{
+  "projectId": "prj_hvlFRIbfExwuy611ZaM4l5RciQvr",
+  "orgId": "team_WayhS8Joa6qfUOR0dwpKACY9",
+  "buildCommand": "NODE_OPTIONS=\"--max_old_space_size=4096\" npm run build"
+}
