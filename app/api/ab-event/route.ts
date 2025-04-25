@@ -1,41 +1,54 @@
-import fs from 'fs';
+import fs from 'fs/promises';
 import path from 'path';
 import { randomUUID } from 'crypto';
 import { NextResponse } from 'next/server';
 
-export async function POST(req: Request) {
+// Background logger for A/B events
+async function logAbEvent(slug: string, variant: string, eventType: string) {
+  const filePath = path.resolve(process.cwd(), 'data', 'ab-events.json');
+  let data: any[] = [];
   try {
-    const { slug, variant, eventType } = await req.json();
-    if (!slug || !variant || !eventType) {
-      return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
-    }
-    const filePath = path.resolve(process.cwd(), 'data', 'ab-events.json');
-    const data: any[] = JSON.parse(fs.readFileSync(filePath, 'utf-8') || '[]');
-    data.push({ slug, variant, eventType, timestamp: new Date().toISOString() });
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    // forward event to GA4 Measurement Protocol
-    try {
-      const measurementId = process.env.GA_MEASUREMENT_ID;
-      const apiSecret = process.env.GA_API_SECRET;
-      if (measurementId && apiSecret) {
-        const clientId = randomUUID();
-        await fetch(
-          `https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${apiSecret}`,
-          {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              client_id: clientId,
-              events: [{ name: 'ab_event', params: { slug, variant, eventType } }]
-            })
-          }
-        );
-      }
-    } catch {
-      // ignore GA errors
-    }
-    return NextResponse.json({ success: true });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    const content = await fs.readFile(filePath, 'utf-8');
+    data = JSON.parse(content || '[]');
+  } catch (e: any) {
+    if (e.code !== 'ENOENT') console.error('Read error:', e);
   }
+  data.push({ slug, variant, eventType, timestamp: new Date().toISOString() });
+  try {
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+  } catch (e: any) {
+    console.error('Write error:', e);
+  }
+  const measurementId = process.env.GA_MEASUREMENT_ID;
+  const apiSecret = process.env.GA_API_SECRET;
+  if (measurementId && apiSecret) {
+    try {
+      const clientId = randomUUID();
+      await fetch(
+        `https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${apiSecret}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ client_id: clientId, events: [{ name: 'ab_event', params: { slug, variant, eventType } }] })
+        }
+      );
+    } catch (e: any) {
+      console.error('GA4 forward error:', e);
+    }
+  }
+}
+
+export async function POST(req: Request) {
+  let body: any;
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ error: 'Invalid JSON' }, { status: 400 });
+  }
+  const { slug, variant, eventType } = body;
+  if (!slug || !variant || !eventType) {
+    return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
+  }
+  void logAbEvent(slug, variant, eventType);
+  return NextResponse.json({ success: true });
 }
