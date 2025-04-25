@@ -1,19 +1,6 @@
-import { NextResponse } from 'next/server';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-
-const execAsync = promisify(exec);
+import { syncMetaobjectsToJson } from '@/scripts/metaobjects';
 
 export async function POST() {
-  try {
-    const { stdout, stderr } = await execAsync(
-      'npx tsx scripts/syncSeoMetaobjects.ts',
-      { cwd: process.cwd() }
-    );
-    console.log(stdout, stderr);
-    return NextResponse.json({ success: true, output: stdout });
-  } catch (err: any) {
-    console.error(err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
-  }
+  await syncMetaobjectsToJson();
+  return new Response('Synced Metaobjects ', { status: 200 });
 }

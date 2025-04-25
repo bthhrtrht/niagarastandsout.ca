@@ -1,25 +1,34 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import { getImageForSlug } from '@/lib/assets';
 import { ICON_ALTS } from '@/lib/assetsAlt';
 import { IMAGE_META } from '@/lib/imageMeta';
 
 export default function ProductGrid({ products }: { products: any[] }) {
   return (
-    <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '2rem', padding: 0 }}>
-      {products.map(p => {
-        const meta = (IMAGE_META as Record<string, { title?: string; caption?: string; hover?: string }>)[p.handle] || {};
+    <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-0 m-0">
+      {products.map((p, i) => {
+        const meta = IMAGE_META[p.handle] || {};
         return (
-          <li key={p.handle} style={{ border: '1px solid #ccc', padding: '1rem', listStyle: 'none' }}>
-            <a href={`/products/${p.handle}`}>
-              <img
-                src={getImageForSlug(p.handle, 'product')}
-                alt={ICON_ALTS[p.handle] || p.title}
-                title={meta.title}
-                data-hover={meta.hover}
-                width="100%"
-                style={{ marginBottom: '0.5rem' }}
-              />
-              <strong>{meta.title || p.title}</strong>
-            </a>
+          <li key={p.handle} className="list-none bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <Link href={`/products/${p.handle}`}>  
+              <a className="block">
+                <div className="relative w-full h-48">
+                  <Image
+                    src={getImageForSlug(p.handle, 'product')}
+                    alt={ICON_ALTS[p.handle] || p.title}
+                    title={meta.title}
+                    priority={i < 3}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-lg font-medium">{meta.title || p.title}</h3>
+                </div>
+              </a>
+            </Link>
           </li>
         );
       })}

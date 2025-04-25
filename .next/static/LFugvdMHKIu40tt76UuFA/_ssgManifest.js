@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fcollections\u002F[slug]","\u002Fdesign\u002F[slug]","\u002Ffree-svgs\u002F[handle]","\u002Fseo\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

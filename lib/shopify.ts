@@ -161,6 +161,49 @@ export async function getProductsByTag(tag: string): Promise<TaggedProduct[]> {
   }
 }
 
+// ───── Fetch Frontpage Products ─────
+
+export async function getFrontpageProducts(limit = 12): Promise<TaggedProduct[]> {
+  const query = `
+    query FrontpageProducts($limit: Int!) {
+      collection(handle: "frontpage") {
+        products(first: $limit) {
+          edges {
+            node {
+              handle
+              title
+              images(first: 1) {
+                edges { node { originalSrc } }
+              }
+            }
+          }
+        }
+      }
+    }
+  `;
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Shopify-Storefront-Access-Token": SHOPIFY_TOKEN,
+      },
+      body: JSON.stringify({ query, variables: { limit } }),
+      next: { revalidate: 60 },
+    });
+    const json = await res.json();
+    const edges = json.data?.collection?.products?.edges || [];
+    return edges.map((edge: any) => ({
+      handle: edge.node.handle,
+      title: edge.node.title,
+      image: edge.node.images.edges[0]?.node.originalSrc || "https://niagarastandsout.ca/cdn/shop/files/default-hero.jpg",
+    }));
+  } catch (e) {
+    console.error(`Error in getFrontpageProducts:`, e);
+    return [];
+  }
+}
+
 // Re-export collection utilities for imports from '@/lib/shopify'
 export { getAllCollections } from './getAllCollections';
 export type { Collection } from './getAllCollections';
