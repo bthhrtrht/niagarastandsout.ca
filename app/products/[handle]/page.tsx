@@ -1,6 +1,6 @@
 import { getProductByHandle } from '@/lib/shopify';
 import ProductImageGallery from '@/components/ProductImageGallery';
-import ProductInfoPanel from '@/components/ProductInfoPanel';
+import ProductPageForm from '@/components/ProductPageForm';
 import TrustIcons from '@/components/TrustIcons';
 import AccordionTabs from '@/components/AccordionTabs';
 import Testimonials from '@/components/Testimonials';
@@ -22,12 +22,6 @@ export default async function ProductPage({ params }: { params: { handle: string
     title: v.node.title,
     price: v.node.price,
   })) || [];
-  const uploadSection = product.tags?.includes('custom') ? (
-    <div className="my-4">
-      <label className="block text-white font-semibold mb-2">Upload your file:</label>
-      <input type="file" className="block w-full text-gray-200 bg-neutral-800 border border-neutral-700 rounded-lg p-2" />
-    </div>
-  ) : null;
   // Example trust/testimonials/related data (replace with real data as needed)
   const tabs = [
     { label: 'Description', content: product.description },
@@ -54,12 +48,10 @@ export default async function ProductPage({ params }: { params: { handle: string
         </div>
         {/* Info Panel */}
         <div className="md:w-1/2 w-full flex flex-col gap-6">
-          <ProductInfoPanel
+          <ProductPageForm
             title={product.title}
             variants={variants}
-            onAddToCart={() => {}}
-            onBuyNow={() => {}}
-            uploadSection={uploadSection}
+            tags={product.tags}
           />
           <AccordionTabs tabs={tabs} />
         </div>
@@ -70,8 +62,12 @@ export default async function ProductPage({ params }: { params: { handle: string
   );
 }
 
-// Pre-render every product page
+// only pre-render our top 100 product pages at build time
 export async function generateStaticParams() {
-  const allProducts = await fetchAllProducts();
-  return allProducts.map(p => ({ handle: p.handle }));
+  const products = await fetchAllProducts();
+  return products.slice(0, 100).map(p => ({ handle: p.handle }));
 }
+
+// enable on-demand ISR for other pages
+export const dynamicParams = true;
+export const revalidate = 60;
