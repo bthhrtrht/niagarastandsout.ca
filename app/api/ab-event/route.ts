@@ -22,19 +22,30 @@ async function logAbEvent(slug: string, variant: string, eventType: string) {
   const measurementId = process.env.GA_MEASUREMENT_ID;
   const apiSecret = process.env.GA_API_SECRET;
   if (measurementId && apiSecret) {
-    try {
-      const clientId = randomUUID();
-      await fetch(
-        `https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${apiSecret}`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ client_id: clientId, events: [{ name: 'ab_event', params: { slug, variant, eventType } }] })
+    const sendToGA4 = async (attempt = 1) => {
+      try {
+        const clientId = randomUUID();
+        const response = await fetch(
+          `https://www.google-analytics.com/mp/collect?measurement_id=${measurementId}&api_secret=${apiSecret}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ client_id: clientId, events: [{ name: 'ab_event', params: { slug, variant, eventType } }] })
+          }
+        );
+        if (!response.ok) {
+          throw new Error(`GA4 responded with status ${response.status}`);
         }
-      );
-    } catch (e: any) {
-      console.error('GA4 forward error:', e);
-    }
+      } catch (fetchError: any) {
+        const code = fetchError?.cause?.code || fetchError.code;
+        if ((code === 'EAI_AGAIN' || code === 'EAGAIN') && attempt < 3) {
+          await new Promise(res => setTimeout(res, 100 * attempt));
+          return sendToGA4(attempt + 1);
+        }
+        console.error(`GA4 forward error (attempt ${attempt}):`, fetchError);
+      }
+    };
+    void sendToGA4();
   }
 }
 

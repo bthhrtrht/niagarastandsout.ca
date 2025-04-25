@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"components/ModernHeader.tsx -> lucide-react":{"id":9971,"files":["static/chunks/b1644e8c.13a2c2fde39a3c76.js","static/chunks/68.18651b850beb7048.js"]}}';

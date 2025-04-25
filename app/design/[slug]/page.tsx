@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getCollectionByHandle, getAllCollections } from '@/lib/shopify';
+import { getCollectionByHandle } from '@/lib/shopify';
 import dynamicComponent from 'next/dynamic';
 // Load DesignPageClient as client component only (disable SSR) to prevent window references on server
 const DesignPageClient = dynamicComponent(() => import('@/components/DesignPageClient'), { ssr: false });
