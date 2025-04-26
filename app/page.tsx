@@ -74,6 +74,8 @@ export default async function HomePage() {
                   alt={c.title}
                   width={400}
                   height={400}
+                  placeholder="blur"
+                  blurDataURL={c.image ? `${c.image}?width=10&blur=50` : '/placeholder.jpg'}
                   priority
                   sizes="(min-width:1024px) 1200px, 100vw"
                   className="object-cover group-hover:scale-110 transition"
