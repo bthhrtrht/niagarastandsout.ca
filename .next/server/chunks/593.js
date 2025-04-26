@@ -1,0 +1,1 @@
+"use strict";exports.id=593,exports.ids=[593],exports.modules={9593:(e,s,t)=>{t.r(s),t.d(s,{default:()=>o});let o=(0,t(8570).createProxy)(String.raw`/Users/thomasjacques/Desktop/SITEFIXED/shopify-headless-complete/components/DesignPageClient.tsx#default`)}};

@@ -1,4 +1,4 @@
-import fs from 'fs/promises';
+import { promises as fs } from 'fs';
 import path from 'path';
 import { randomUUID } from 'crypto';
 import { NextResponse } from 'next/server';
@@ -19,8 +19,8 @@ async function logAbEvent(slug: string, variant: string, eventType: string) {
   } catch (e: any) {
     console.error('Write error:', e);
   }
-  const measurementId = process.env.GA4_MEASUREMENT_ID;
-  const apiSecret = process.env.GA4_API_SECRET;
+  const measurementId = process.env.GA_MEASUREMENT_ID;
+  const apiSecret = process.env.GA_API_SECRET;
   if (measurementId && apiSecret) {
     const sendToGA4 = async (attempt = 1) => {
       try {

@@ -11,10 +11,12 @@ interface Params {
 }
 
 // Generate all collection slugs at build time
-export async function generateStaticParams() {
-  const collections = await getAllCollections();
-  return collections.map((col) => ({ slug: col.handle }));
-}
+// export async function generateStaticParams() {
+//   const collections = await getAllCollections();
+//   return collections.map((col) => ({ slug: col.handle }));
+// }
+export const dynamic = 'force-dynamic';
+export const revalidate = 60;
 
 // Build page metadata dynamically
 export async function generateMetadata({ params }: Params): Promise<Metadata> {

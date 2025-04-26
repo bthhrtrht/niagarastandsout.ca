@@ -1,15 +1,12 @@
-import { fetchAllProducts, getProductByHandle } from '@/lib/shopify';
+import { getProductByHandle } from '@/lib/shopify';
 import ProductDetailClient from './ProductDetailClient';
 import { Metadata } from 'next';
 
-export const revalidate = 60;
-export const dynamicParams = true;
+export const dynamic = 'error';
+export const revalidate = 43200;
 
 export async function generateStaticParams() {
-  const products = await fetchAllProducts();
-  // Only pre-render our top 50 product pages at build time
-  const hot = products.slice(0, 50);
-  return hot.map((p) => ({ handle: p.handle }));
+  return [];
 }
 
 export async function generateMetadata({ params }: { params: { handle: string } }): Promise<Metadata> {
