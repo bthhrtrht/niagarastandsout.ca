@@ -34,7 +34,15 @@ export default async function HomePage() {
       </Head>
       <main className="font-main">
         {/* Hero */}
-        <header className="relative h-[60vh] flex items-center justify-center bg-[url('/hero-wrap.jpg')] bg-cover bg-center before:absolute before:inset-0 before:bg-black/50 text-white">
+        <header className="relative h-[60vh] flex items-center justify-center before:absolute before:inset-0 before:bg-black/50 text-white">
+          <Image
+            src="/hero-wrap.jpg"
+            alt="Custom Boat, Vehicle & Retail Graphics — Printed in Niagara"
+            fill
+            priority
+            sizes="(min-width:1024px) 1200px, 100vw"
+            className="absolute inset-0 object-cover"
+          />
           <div className="relative z-10 text-center px-4">
             <h1 className="text-5xl sm:text-6xl font-bold">Custom Boat, Vehicle & Retail Graphics — Printed in Niagara</h1>
             <p className="mt-4 text-lg">Ships in 48 h · Eco-solvent inks · 10 yr vinyl</p>
@@ -61,9 +69,15 @@ export default async function HomePage() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
             {collections.slice(0, 6).map(c => (
               <Link key={c.handle} href={`/collections/${c.handle}`} className="group block overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition">
-                <div className="relative w-full h-36">
-                  <Image src={c.image || '/placeholder.jpg'} alt={c.title} fill className="object-cover group-hover:scale-110 transition" />
-                </div>
+                <Image
+                  src={c.image || '/placeholder.jpg'}
+                  alt={c.title}
+                  width={400}
+                  height={400}
+                  priority
+                  sizes="(min-width:1024px) 1200px, 100vw"
+                  className="object-cover group-hover:scale-110 transition"
+                />
                 <h3 className="mt-2 text-center font-medium">{c.title}</h3>
               </Link>
             ))}
