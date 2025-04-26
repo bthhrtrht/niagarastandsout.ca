@@ -8,8 +8,11 @@ interface Params {
   params: { handle: string };
 }
 
-export function generateStaticParams() {
-  return (freeSvgs as FreeSvgEntry[]).map((p) => ({ handle: p.handle }));
+export const dynamic = 'error';
+export const revalidate = 43200;
+
+export async function generateStaticParams() {
+  return [];
 }
 
 export async function generateMetadata({ params: { handle } }: Params): Promise<Metadata> {

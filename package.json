@@ -6,11 +6,12 @@
     "dev": "next dev",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "build": "npm run lint && npm run typecheck && next build",
+    "build": "next build",
     "start": "next start",
     "check": "node scripts/preflight-check.js",
     "deploy": "npm run check && npx vercel --prod",
     "qa": "npm ci && npm run lint && npm run typecheck && npm run build",
+    "analyze": "ANALYZE=true npm run build",
     "sync:featured-snipers": "tsx scripts/syncFeaturedSnipers.ts",
     "fetch-serp": "node scripts/fetch-serp.js",
     "generate-competitor-seo": "node scripts/generateSeoCompetitorPages.js"
@@ -27,6 +28,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^15.3.1",
     "@tailwindcss/postcss": "^4.1.4",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",

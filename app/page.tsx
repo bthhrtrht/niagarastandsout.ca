@@ -13,7 +13,8 @@ import featured from '@/public/metaobjects.json';
 type FeaturedMeta = { slug: string; icon: string; alt: string; title: string; description: string; };
 const featuredList = featured as FeaturedMeta[];
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
+export const revalidate = 43200;
 
 export default async function HomePage() {
   const collections = await getAllCollections();
